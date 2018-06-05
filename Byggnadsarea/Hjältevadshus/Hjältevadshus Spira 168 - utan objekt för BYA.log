@@ -1,0 +1,898 @@
+2018-05-25 10:09:05|   1.0|  1.0|INFORM|FME 2017.1.2.1 (20180117 - Build 17725 - WIN64)
+2018-05-25 10:09:05|   1.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2018-05-25 10:09:05|   1.0|  0.0|INFORM|FME Desktop Oracle Edition (floating)
+2018-05-25 10:09:05|   1.0|  0.0|INFORM|Temporary License: 129 days left.
+2018-05-25 10:09:05|   1.0|  0.0|INFORM|Machine host name is: PCMLM11275
+2018-05-25 10:09:05|   1.0|  0.0|INFORM|START - ProcessID: 2196, peak process memory usage: 38140 kB, current process memory usage: 38132 kB
+2018-05-25 10:09:05|   1.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Users/seuppp/Documents/Exjobb/Calculation_of_Building_footprint_area/Workspace - utan objekt för BYA/Hjältevadshus\wb-xlate-1527235740808_10012' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{23d56787-16b0-4797-9175-1f21a9df07f9}'
+2018-05-25 10:09:06|   1.1|  0.1|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\seuppp\Documents\FME\Formats
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Shared folders for transformers are : C:\Program Files\FME\transformers;C:\Users\seuppp\Documents\FME\Transformers;C:\Users\seuppp\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\seuppp\Documents\FME\CoordinateSystems
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\seuppp\Documents\FME\CoordinateSystemExceptions
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\seuppp\Documents\FME\CoordinateSystemGridOverrides
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\seuppp\Documents\FME\CsmapTransformationExceptions
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\seuppp\Documents\FME\TransformerCategories
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Mapping File Identifier is: Hjältevadshus - utan objekt för BYA
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Reader Keyword is `IFC_1'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Reader type is `IFC'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\seuppp\Documents\Exjobb\Calculation_of_Building_footprint_area\Workspace - utan objekt för BYA\Hjältevadshus'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\seuppp\AppData\Local\Temp', set from environment variable `TEMP'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\seuppp\Documents\Exjobb\Calculation_of_Building_footprint_area\Workspace - utan objekt för BYA\Hjältevadshus/'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Hjältevadshus Spira 168 - utan objekt för BYA.fmw'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.2.1'
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|System Status: 126.82 GB of disk space available in the FME temporary folder (C:\Users\seuppp\AppData\Local\Temp)
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|System Status: 8.00 TB of virtual memory available
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Operating System: Microsoft Windows 7 64-bit Service Pack 1 (Build 7601)
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Platform: WIN64
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Locale: sv_SE
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Process limit is 7.88 GB of physical memory
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 23.65 GB of virtual memory
+2018-05-25 10:09:06|   1.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 17.74 GB of virtual memory
+2018-05-25 10:09:06|   1.2|  0.1|INFORM|Creating writer for format: 
+2018-05-25 10:09:06|   1.2|  0.0|INFORM|Creating reader for format: Industry Foundation Class STEP Files (IFC)
+2018-05-25 10:09:06|   1.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `IFC'
+2018-05-25 10:09:06|   1.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader IFC_1[IFC] set to `XY-MM'
+2018-05-25 10:09:06|   1.2|  0.0|INFORM|Coordinate System `XY-MM' parameters: CS_NAME=`XY-MM' DESC_NM=`Arbitrary X-Y Coordinates (Millimeters)' GROUP=`NERTH' MAP_SCL=`1' PROJ=`NERTH' QUAD=`1' SCL_RED=`1' SOURCE=`Autodesk' UNIT=`Millimeter' 
+2018-05-25 10:09:06|   1.3|  0.1|INFORM|Loaded module 'IFC' from file 'C:\Program Files\FME\plugins/ifc/ifc.dll'
+2018-05-25 10:09:06|   1.3|  0.0|INFORM|FME API version of module 'IFC' matches current internal version (3.8 20170315)
+2018-05-25 10:09:06|   1.3|  0.0|INFORM|Detected IFC version 2X3.
+2018-05-25 10:09:06|   1.3|  0.0|INFORM|IFC: CSG solid geometries will be evaluated in the reader
+2018-05-25 10:09:08|   3.2|  1.9|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2018-05-25 10:09:08|   3.2|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2018-05-25 10:09:08|   3.2|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2018-05-25 10:09:08|   3.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.2|  0.0|INFORM|Loaded module 'PythonFactory' from file 'C:\Program Files\FME\plugins/PythonFactory.dll'
+2018-05-25 10:09:08|   3.2|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.2|  0.0|INFORM|Using Python interpreter from `C:\Program Files\FME\fmepython27\python27.dll' with PYTHONHOME `C:\Program Files\FME\fmepython27'
+2018-05-25 10:09:08|   3.2|  0.0|INFORM|Python version 2.7 loaded successfully
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|Adding folder `C:\Users\seuppp\Documents\Exjobb\Calculation_of_Building_footprint_area\Workspace - utan objekt för BYA\Hjältevadshus\' to the python path
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Program Files\FME\plugins/InspectorFactory.dll'
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins/Geometry_func.dll'
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|Loaded module 'RasterClippingFactory' from file 'C:\Program Files\FME\plugins/RasterClippingFactory.dll'
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|Loaded module 'SolidIntersectionFactory' from file 'C:\Program Files\FME\plugins/SolidIntersectionFactory.dll'
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|Loaded module 'VectorToPointCloudFactory' from file 'C:\Program Files\FME\plugins/VectorToPointCloudFactory.dll'
+2018-05-25 10:09:08|   3.3|  0.0|INFORM|FME API version of module 'VectorToPointCloudFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|Loaded module 'PointCloudCombinerFactory' from file 'C:\Program Files\FME\plugins/PointCloudCombinerFactory.dll'
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'PointCloudCombinerFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|Loaded module 'PointCloudCoercerFactory' from file 'C:\Program Files\FME\plugins/PointCloudCoercerFactory.dll'
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'PointCloudCoercerFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'VectorToPointCloudFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'PointCloudCombinerFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'PointCloudCoercerFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'VectorToPointCloudFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'PointCloudCombinerFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'PointCloudCoercerFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|... Last line repeated 2 times ...
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|Loaded module 'GeometryValidationFactory' from file 'C:\Program Files\FME\plugins/GeometryValidationFactory.dll'
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'GeometryValidationFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|... Last line repeated 5 times ...
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'RasterClippingFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'SolidIntersectionFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'GeometryValidationFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|... Last line repeated 4 times ...
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|Loaded module 'GeometryBuilderFactory' from file 'C:\Program Files\FME\plugins/GeometryBuilderFactory.dll'
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'GeometryBuilderFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|IFC: Plane angle unit determined to be degrees.
+2018-05-25 10:09:08|   3.4|  0.0|INFORM|IFC: Length unit determined to be 'MILLIMETER'. One 'MILLIMETER' is 0.001 meters
+2018-05-25 10:09:08|   3.9|  0.5|WARN  |The IFC reader does not support the following type: 'IfcTextLiteralWithExtent'. All instances of this type will be skipped
+2018-05-25 10:09:08|   3.9|  0.0|WARN  |The IFC reader does not support the following type: 'IfcCurveStyle'. All instances of this type will be skipped
+2018-05-25 10:09:10|   5.1|  1.2|INFORM|IFC: 1149 objects read
+2018-05-25 10:09:10|   5.1|  0.0|WARN  |NOT changing coordinate system of reader identified by keyword `IFC_1' from `XY-MM' to `IFC_COORDSYS_0' -- mapping file setting of `XY-MM' overrides coordinate system `IFC_COORDSYS_0' read from file
+2018-05-25 10:09:10|   5.8|  0.7|INFORM|Emptying factory pipeline
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 1190 input feature(s), wrote 1190 output feature(s): 100 matched merge filters, 100 were routed to output, 1090 could not be routed.
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 1090 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcBuildingStorey (IFC_1) Splitter(TeeFactory): Cloned 10 input feature(s) into 10 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcBuildingStorey_IFC_1 Feature Counter -1 290(TeeFactory): Cloned 10 input feature(s) into 10 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWallStandardCase (IFC_1) Splitter(TeeFactory): Cloned 78 input feature(s) into 312 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWallStandardCase_IFC_1_0_i6kglNMFIa8= Feature Counter -1 16(TeeFactory): Cloned 78 input feature(s) into 78 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWallStandardCase_IFC_1_1_ZYv5nPSw8IA= Feature Counter -1 163(TeeFactory): Cloned 78 input feature(s) into 78 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWallStandardCase_IFC_1_2_jU4HK4fi9sg= Feature Counter -1 165(TeeFactory): Cloned 78 input feature(s) into 78 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWallStandardCase_IFC_1_3_AFBTcU5wecY= Feature Counter -1 184(TeeFactory): Cloned 78 input feature(s) into 78 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWall (IFC_1) Splitter(TeeFactory): Cloned 3 input feature(s) into 12 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWall_IFC_1_0_3zQ6RsPmCv0= Feature Counter -1 19(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWall_IFC_1_1_si15kA+QlHM= Feature Counter -1 164(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWall_IFC_1_2_mUUYqJku6yM= Feature Counter -1 166(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcWall_IFC_1_3_kaFRukbEJVI= Feature Counter -1 186(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcRoof (IFC_1) Splitter(TeeFactory): Cloned 3 input feature(s) into 9 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcRoof_IFC_1_0_8dCbxpfukj4= Feature Counter -1 169(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcRoof_IFC_1_1_daE/BWJzZnk= Feature Counter -1 170(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcRoof_IFC_1_2_tEEYHtjLxXs= Feature Counter -1 189(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcSlab (IFC_1) Splitter(TeeFactory): Cloned 6 input feature(s) into 24 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcSlab_IFC_1_0_4lnr3AhAnoM= Feature Counter -1 167(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcSlab_IFC_1_1_tUHFj/80W/Q= Feature Counter -1 168(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcSlab_IFC_1_2_7yyl1pTF1DA= Feature Counter -1 192(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |IfcSlab_IFC_1_3_MdckGitS5Og= Feature Counter -1 187(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Aggregator_4(AggregateFactory): Combined 10 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Aggregator_4_AGGREGATE Feature Counter -1 301(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |ListElementCounter_4(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |ListElementCounter_4_OUTPUT Feature Counter -1 302(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder AttributeCreator_StoreyList_Input Input Collector(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder PythonCaller_2_Input Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_PythonCaller_2_Input1527235742 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_PythonCaller_2_Input Feature Counter 2 14(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_AttributeCreator_StoreyList_Input1527235742 Input Splitter(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_AttributeCreator_StoreyList_Input Feature Counter 2 15(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_AttributeCreator_StoreyList_OUTPUT Feature Counter 2 18(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:10|   5.8|  0.1|STATS |StoreyIndexFinder_PythonCaller_2 OUTPUT Splitter(TeeFactory): Cloned 7 input feature(s) into 14 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_PythonCaller_2_OUTPUT_0_kSyu3vemfhM= Feature Counter 2 16(TeeFactory): Cloned 7 input feature(s) into 7 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_PythonCaller_2_OUTPUT_0_kSyu3vemfhM= Disabled Nuker 2 16(TeeFactory): Cloned 7 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_PythonCaller_2_OUTPUT_1_iRRSFFvbJE0= Feature Counter 2 17(TeeFactory): Cloned 7 input feature(s) into 7 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter(TeeFactory): Cloned 7 input feature(s) into 7 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter_TestFactory_0(TestFactory): Tested 7 input feature(s) -- 2 feature(s) passed and 5 feature(s) failed
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter_TestFactory_1(TestFactory): Tested 5 input feature(s) -- 0 feature(s) passed and 5 feature(s) failed
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter_TestFactory_2(TestFactory): Tested 5 input feature(s) -- 0 feature(s) passed and 5 feature(s) failed
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter_<lt>UNFILTERED<gt>(TeeFactory): Cloned 5 input feature(s) into 5 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter <lt>UNFILTERED<gt> Output Nuker(TeeFactory): Cloned 5 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter_1 Feature Counter 2 19(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter_2 Feature Counter 2 20(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_TestFilter_0 Feature Counter 2 24(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_Tester_StoreyIndex (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_11527235742 Output Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_21527235742 Output Collector(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_01527235742 Output Collector(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder 1 Output Renamer/Nuker(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder 2 Output Renamer/Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder 0 Output Renamer/Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder 1 Splitter(TeeFactory): Cloned 2 input feature(s) into 4 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_1_0_hDCXKamvy+o= Feature Counter -1 26(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |StoreyIndexFinder_1_1_fbUdVK8y1x0= Feature Counter -1 282(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|INFORM|StoreyIndexFinder_1_Recorder(RecorderFactory): Recorded 2 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2 Input Input Collector(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Input1527235742 Input Splitter(TeeFactory): Cloned 90 input feature(s) into 360 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Input_0_Dufd277VfeI= Feature Counter 3 40(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Input_1_/PYM/BZane8= Feature Counter 3 14(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Input_2_R6VR/s6tS1Q= Feature Counter 3 15(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Input_3_jpBwNYmkX04= Feature Counter 3 27(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_BoundsExtractor(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_BoundsExtractor_OUTPUT Feature Counter 3 16(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_ListBuilder_fme_type_remover(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_ListBuilder(ListFactory): Combined 90 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_ListBuilder_OUTPUT Feature Counter 3 19(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_ListRangeExtractor(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_ListRangeExtractor_OUTPUT Feature Counter 3 18(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Deaggregator(DeaggregateFactory): Split 90 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 81 line(s), 0 point(s), and 1123 aggregate(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Deaggregator_DEAGGREGATED Feature Counter 3 32(TeeFactory): Cloned 1204 input feature(s) into 1204 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_GeometryFilter_InputPassThrough(TeeFactory): Cloned 1204 input feature(s) into 1204 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_GeometryFilter_RouterPrepper(TeeFactory): Cloned 1204 input feature(s) into 1204 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_GeometryFilter_Router(TestFactory): Tested 1204 input feature(s) -- 89 feature(s) passed and 1115 feature(s) failed
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_GeometryFilter <UNFILTERED> Output Nuker(TeeFactory): Cloned 1115 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_GeometryFilter_SOLID Feature Counter 3 34(TeeFactory): Cloned 89 input feature(s) into 89 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Input (Disabled) Nuker(TeeFactory): Cloned 90 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_BoundingBoxAccumulator_BOUNDING_BOX Feature Counter 3 17(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_FeatureMerger(ReferenceFactory): Total Results: 1 Complete Feature(s), 0 Incomplete Feature(s), 0 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_FeatureMerger MERGED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_FeatureMerger_MERGED_0_IpWdmsTbb24= Feature Counter 3 20(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_FeatureMerger_MERGED_1_30EjTNHyllE= Feature Counter 3 39(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_FeatureMerger_<REJECTED> Feature Counter 3 2147876871(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_FeatureMerger_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_FeatureMerger_Merged (Disabled) Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_SurfaceFootprintReplacer(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_SurfaceFootprintReplacer_router(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_SurfaceFootprintReplacer FOOTPRINT Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_SurfaceFootprintReplacer_FOOTPRINT_0_Jl0KOmJJL0w= Feature Counter 3 22(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_SurfaceFootprintReplacer_FOOTPRINT_1_Dmi2uWVGYZ0= Feature Counter 3 41(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_SurfaceFootprintReplacer_<REJECTED> Feature Counter 3 2147680264(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_SurfaceFootprintReplacer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_SurfaceFootprintReplacer_Footprint (Disabled) Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Extruder(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Extruder_Rejector(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Extruder EXTRUDED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Extruder_EXTRUDED_0_RhdFm3U8+0w= Feature Counter 3 21(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Extruder_EXTRUDED_1_ppgA8XhIHmo= Feature Counter 3 37(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Extruder_<REJECTED> Feature Counter 3 2147680265(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Extruder_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Clipper_2_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Clipper_2_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Clipper_2_ClippeeFilter(TestFactory): Tested 89 input feature(s) -- 0 feature(s) passed and 89 feature(s) failed
+2018-05-25 10:09:10|   5.8|  0.0|STATS |Clipper_Max_3m_2_Clipper_2_Vector(ClippingFactory): Processed 89 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:13|   8.9|  3.1|WARN  |Spacing parameter given for grid creation will produce a very large number of points, consider increasing spacing
+2018-05-25 10:09:19|  14.1|  5.2|WARN  |... Last line repeated 5 times ...
+2018-05-25 10:09:19|  14.1|  0.0|INFORM|Clipper_Max_3m_2_Clipper_2_Solid(SolidIntersectionFactory): Processed 89 input feature(s), of which 0 feature(s) were clipped, 74 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Clipper_2_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Clipper_2_INSIDE Feature Counter 3 23(TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Clipper_2_<REJECTED> Feature Counter 3 25(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Output_clipper1527235742 Output Collector(TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Rejected1527235742 Output Collector(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Output_extruded1527235742 Output Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2 Output_extruded Output Renamer/Nuker(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2 Output_clipper Output Renamer/Nuker(TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2 Rejected Output Renamer/Nuker(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Output_extruded Feature Counter -1 157(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Output_clipper Feature Counter -1 174(TeeFactory): Cloned 74 input feature(s) into 74 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |Clipper_Max_3m_2_Rejected Feature Counter -1 159(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5 Wall Input Collector(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5 Clipper Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_Wall1527235742 Input Splitter(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_Wall Feature Counter 0 13(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_Clipper1527235742 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_Clipper Feature Counter 0 14(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_PointCloudCombiner_OUTPUT Feature Counter 0 15(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_PointCloudCombiner_<REJECTED> Feature Counter 0 2147680258(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_PointCloudCombiner_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_ClippeeFilter(TestFactory): Tested 3 input feature(s) -- 0 feature(s) passed and 3 feature(s) failed
+2018-05-25 10:09:19|  14.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_Vector(ClippingFactory): Processed 3 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:19|  14.1|  0.0|WARN  |PointCloudCoercerFactory: The following components will be dropped from the point cloud: ifc_parent_unique_id, color_red, color_green, color_blue
+2018-05-25 10:09:22|  17.1|  3.0|WARN  |PointCloudCoercerFactory: The following components will be dropped from the point cloud: ifc_parent_unique_id, color_red, color_green, color_blue
+2018-05-25 10:09:22|  17.1|  0.0|INFORM|PointCloudClipper_5_Clipper_2_Solid(SolidIntersectionFactory): Processed 3 input feature(s), of which 2 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Clipper_2 INSIDE Splitter(TeeFactory): Cloned 2 input feature(s) into 4 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_INSIDE_0_HjlWOVp9U2Q= Feature Counter 0 17(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_INSIDE_1_h/eQ79zsvwQ= Feature Counter 0 22(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_<REJECTED> Feature Counter 0 2147745795(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Clipper_2_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_PointCloudCoercer_COERCED Feature Counter 0 19(TeeFactory): Cloned 127620 input feature(s) into 127620 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_PointCloudCoercer_<REJECTED> Feature Counter 0 2147680263(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_PointCloudCoercer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_2DForcer(TeeFactory): Cloned 127620 input feature(s) into 127620 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_2DForcer_2D Feature Counter 0 20(TeeFactory): Cloned 127620 input feature(s) into 127620 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_HullAccumulator_HULL Feature Counter 0 18(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_HullAccumulator_<REJECTED> Feature Counter 0 2147680262(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_HullAccumulator_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Output_2D1527235742 Output Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Output_3D1527235742 Output Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5 Output_2D Output Renamer/Nuker(TeeFactory): Cloned 2 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5 Output_3D Output Renamer/Nuker(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |PointCloudClipper_5_Output_3D Feature Counter -1 173(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3 Input Input Collector(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Input1527235742 Input Splitter(TeeFactory): Cloned 90 input feature(s) into 360 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Input_0_Dufd277VfeI= Feature Counter 3 40(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Input_1_/PYM/BZane8= Feature Counter 3 14(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Input_2_R6VR/s6tS1Q= Feature Counter 3 15(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Input_3_jpBwNYmkX04= Feature Counter 3 27(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_BoundsExtractor(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_BoundsExtractor_OUTPUT Feature Counter 3 16(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_ListBuilder_fme_type_remover(TeeFactory): Cloned 90 input feature(s) into 90 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_ListBuilder(ListFactory): Combined 90 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_ListBuilder_OUTPUT Feature Counter 3 19(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_ListRangeExtractor(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_ListRangeExtractor_OUTPUT Feature Counter 3 18(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Deaggregator(DeaggregateFactory): Split 90 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 81 line(s), 0 point(s), and 1123 aggregate(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Deaggregator_DEAGGREGATED Feature Counter 3 32(TeeFactory): Cloned 1204 input feature(s) into 1204 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_GeometryFilter_InputPassThrough(TeeFactory): Cloned 1204 input feature(s) into 1204 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_GeometryFilter_RouterPrepper(TeeFactory): Cloned 1204 input feature(s) into 1204 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_GeometryFilter_Router(TestFactory): Tested 1204 input feature(s) -- 89 feature(s) passed and 1115 feature(s) failed
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_GeometryFilter <UNFILTERED> Output Nuker(TeeFactory): Cloned 1115 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_GeometryFilter_SOLID Feature Counter 3 34(TeeFactory): Cloned 89 input feature(s) into 89 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Input (Disabled) Nuker(TeeFactory): Cloned 90 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_BoundingBoxAccumulator_BOUNDING_BOX Feature Counter 3 17(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_FeatureMerger(ReferenceFactory): Total Results: 1 Complete Feature(s), 0 Incomplete Feature(s), 0 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_FeatureMerger MERGED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_FeatureMerger_MERGED_0_IpWdmsTbb24= Feature Counter 3 20(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_FeatureMerger_MERGED_1_30EjTNHyllE= Feature Counter 3 39(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_FeatureMerger_<REJECTED> Feature Counter 3 2147876871(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_FeatureMerger_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_FeatureMerger_Merged (Disabled) Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_SurfaceFootprintReplacer(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_SurfaceFootprintReplacer_router(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_SurfaceFootprintReplacer FOOTPRINT Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_SurfaceFootprintReplacer_FOOTPRINT_0_Jl0KOmJJL0w= Feature Counter 3 22(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_SurfaceFootprintReplacer_FOOTPRINT_1_Dmi2uWVGYZ0= Feature Counter 3 41(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_SurfaceFootprintReplacer_<REJECTED> Feature Counter 3 2147680264(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_SurfaceFootprintReplacer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_SurfaceFootprintReplacer_Footprint (Disabled) Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Extruder(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Extruder_Rejector(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Extruder EXTRUDED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Extruder_EXTRUDED_0_RhdFm3U8+0w= Feature Counter 3 21(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Extruder_EXTRUDED_1_ppgA8XhIHmo= Feature Counter 3 37(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Extruder_<REJECTED> Feature Counter 3 2147680265(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Extruder_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Clipper_2_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Clipper_2_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Clipper_2_ClippeeFilter(TestFactory): Tested 89 input feature(s) -- 0 feature(s) passed and 89 feature(s) failed
+2018-05-25 10:09:22|  17.1|  0.0|STATS |Clipper_Max_5m_3_Clipper_2_Vector(ClippingFactory): Processed 89 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:25|  19.9|  2.7|WARN  |Spacing parameter given for grid creation will produce a very large number of points, consider increasing spacing
+2018-05-25 10:09:30|  25.2|  5.4|WARN  |... Last line repeated 5 times ...
+2018-05-25 10:09:30|  25.2|  0.0|INFORM|Clipper_Max_5m_3_Clipper_2_Solid(SolidIntersectionFactory): Processed 89 input feature(s), of which 0 feature(s) were clipped, 31 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Clipper_2_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Clipper_2_INSIDE Feature Counter 3 23(TeeFactory): Cloned 31 input feature(s) into 31 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Clipper_2_<REJECTED> Feature Counter 3 25(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Output_clipper1527235742 Output Collector(TeeFactory): Cloned 31 input feature(s) into 31 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Rejected1527235742 Output Collector(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Output_extruded1527235742 Output Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3 Output_extruded Output Renamer/Nuker(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3 Output_clipper Output Renamer/Nuker(TeeFactory): Cloned 31 input feature(s) into 31 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3 Rejected Output Renamer/Nuker(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Output_extruded Feature Counter -1 158(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Output_clipper Feature Counter -1 176(TeeFactory): Cloned 31 input feature(s) into 31 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |Clipper_Max_5m_3_Rejected Feature Counter -1 160(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6 Wall Input Collector(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6 Clipper Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_Wall1527235742 Input Splitter(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_Wall Feature Counter 0 13(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_Clipper1527235742 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_Clipper Feature Counter 0 14(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_PointCloudCombiner_OUTPUT Feature Counter 0 15(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_PointCloudCombiner_<REJECTED> Feature Counter 0 2147680258(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_PointCloudCombiner_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_Clipper_2_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_Clipper_2_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_Clipper_2_ClippeeFilter(TestFactory): Tested 3 input feature(s) -- 0 feature(s) passed and 3 feature(s) failed
+2018-05-25 10:09:30|  25.2|  0.0|STATS |PointCloudClipper_6_Clipper_2_Vector(ClippingFactory): Processed 3 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:30|  25.3|  0.0|WARN  |PointCloudCoercerFactory: The following components will be dropped from the point cloud: ifc_parent_unique_id, color_red, color_green, color_blue
+2018-05-25 10:09:38|  33.2|  8.0|WARN  |... Last line repeated 2 times ...
+2018-05-25 10:09:38|  33.2|  0.0|INFORM|PointCloudClipper_6_Clipper_2_Solid(SolidIntersectionFactory): Processed 3 input feature(s), of which 3 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:38|  33.2|  0.0|STATS |PointCloudClipper_6_Clipper_2_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.2|  0.0|STATS |PointCloudClipper_6_Clipper_2 INSIDE Splitter(TeeFactory): Cloned 3 input feature(s) into 6 output feature(s)
+2018-05-25 10:09:38|  33.2|  0.0|STATS |PointCloudClipper_6_Clipper_2_INSIDE_0_HjlWOVp9U2Q= Feature Counter 0 17(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_Clipper_2_INSIDE_1_h/eQ79zsvwQ= Feature Counter 0 22(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_Clipper_2_<REJECTED> Feature Counter 0 2147745795(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_Clipper_2_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_PointCloudCoercer_COERCED Feature Counter 0 19(TeeFactory): Cloned 345732 input feature(s) into 345732 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_PointCloudCoercer_<REJECTED> Feature Counter 0 2147680263(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_PointCloudCoercer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_2DForcer(TeeFactory): Cloned 345732 input feature(s) into 345732 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_2DForcer_2D Feature Counter 0 20(TeeFactory): Cloned 345732 input feature(s) into 345732 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_HullAccumulator_HULL Feature Counter 0 18(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_HullAccumulator_<REJECTED> Feature Counter 0 2147680262(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_HullAccumulator_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_Output_2D1527235742 Output Collector(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_Output_3D1527235742 Output Collector(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6 Output_2D Output Renamer/Nuker(TeeFactory): Cloned 3 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6 Output_3D Output Renamer/Nuker(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |PointCloudClipper_6_Output_3D Feature Counter -1 175(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2 Input Input Collector(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Input1527235742 Input Splitter(TeeFactory): Cloned 81 input feature(s) into 324 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Input_0_Dufd277VfeI= Feature Counter 3 40(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Input_1_/PYM/BZane8= Feature Counter 3 14(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Input_2_R6VR/s6tS1Q= Feature Counter 3 15(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Input_3_jpBwNYmkX04= Feature Counter 3 27(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_BoundsExtractor(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_BoundsExtractor_OUTPUT Feature Counter 3 16(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_ListBuilder_fme_type_remover(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_ListBuilder(ListFactory): Combined 81 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_ListBuilder_OUTPUT Feature Counter 3 19(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_ListRangeExtractor(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_ListRangeExtractor_OUTPUT Feature Counter 3 18(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Deaggregator(DeaggregateFactory): Split 81 input feature(s) into 0 point-in-polygon feature(s), 0 donut polygon(s), 0 polygon(s), 81 line(s), 0 point(s), and 1013 aggregate(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Deaggregator_DEAGGREGATED Feature Counter 3 32(TeeFactory): Cloned 1094 input feature(s) into 1094 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_GeometryFilter_InputPassThrough(TeeFactory): Cloned 1094 input feature(s) into 1094 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_GeometryFilter_RouterPrepper(TeeFactory): Cloned 1094 input feature(s) into 1094 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_GeometryFilter_Router(TestFactory): Tested 1094 input feature(s) -- 81 feature(s) passed and 1013 feature(s) failed
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_GeometryFilter <UNFILTERED> Output Nuker(TeeFactory): Cloned 1013 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_GeometryFilter_SOLID Feature Counter 3 34(TeeFactory): Cloned 81 input feature(s) into 81 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Input (Disabled) Nuker(TeeFactory): Cloned 81 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_BoundingBoxAccumulator_BOUNDING_BOX Feature Counter 3 17(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_FeatureMerger(ReferenceFactory): Total Results: 1 Complete Feature(s), 0 Incomplete Feature(s), 0 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_FeatureMerger MERGED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_FeatureMerger_MERGED_0_IpWdmsTbb24= Feature Counter 3 20(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_FeatureMerger_MERGED_1_30EjTNHyllE= Feature Counter 3 39(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_FeatureMerger_<REJECTED> Feature Counter 3 2147876871(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_FeatureMerger_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_FeatureMerger_Merged (Disabled) Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_SurfaceFootprintReplacer(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_SurfaceFootprintReplacer_router(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_SurfaceFootprintReplacer FOOTPRINT Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_SurfaceFootprintReplacer_FOOTPRINT_0_Jl0KOmJJL0w= Feature Counter 3 22(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_SurfaceFootprintReplacer_FOOTPRINT_1_Dmi2uWVGYZ0= Feature Counter 3 41(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_SurfaceFootprintReplacer_<REJECTED> Feature Counter 3 2147680264(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_SurfaceFootprintReplacer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_SurfaceFootprintReplacer_Footprint (Disabled) Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Extruder(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Extruder_Rejector(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Extruder EXTRUDED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Extruder_EXTRUDED_0_RhdFm3U8+0w= Feature Counter 3 21(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Extruder_EXTRUDED_1_ppgA8XhIHmo= Feature Counter 3 37(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Extruder_<REJECTED> Feature Counter 3 2147680265(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Extruder_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Clipper_2_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Clipper_2_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Clipper_2_ClippeeFilter(TestFactory): Tested 81 input feature(s) -- 0 feature(s) passed and 81 feature(s) failed
+2018-05-25 10:09:38|  33.3|  0.0|STATS |Clipper_BottomEdge_2_Clipper_2_Vector(ClippingFactory): Processed 81 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:40|  35.6|  2.4|INFORM|Clipper_BottomEdge_2_Clipper_2_Solid(SolidIntersectionFactory): Processed 81 input feature(s), of which 0 feature(s) were clipped, 18 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Clipper_2_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Clipper_2_INSIDE Feature Counter 3 23(TeeFactory): Cloned 18 input feature(s) into 18 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Clipper_2_<REJECTED> Feature Counter 3 25(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Output_clipper1527235742 Output Collector(TeeFactory): Cloned 18 input feature(s) into 18 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Rejected1527235742 Output Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Output_extruded1527235742 Output Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2 Output_extruded Output Renamer/Nuker(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2 Output_clipper Output Renamer/Nuker(TeeFactory): Cloned 18 input feature(s) into 18 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2 Rejected Output Renamer/Nuker(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Output_extruded Feature Counter -1 63(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Output_clipper Feature Counter -1 62(TeeFactory): Cloned 18 input feature(s) into 18 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |Clipper_BottomEdge_2_Rejected Feature Counter -1 64(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper Wall Input Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper Clipper Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_Wall1527235742 Input Splitter(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_Wall Feature Counter 0 13(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_Clipper1527235742 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_Clipper Feature Counter 0 14(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_PointCloudCombiner_OUTPUT Feature Counter 0 15(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_PointCloudCombiner_<REJECTED> Feature Counter 0 2147680258(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_PointCloudCombiner_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_Clipper_2_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_Clipper_2_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_Clipper_2_ClippeeFilter(TestFactory): Tested 2 input feature(s) -- 0 feature(s) passed and 2 feature(s) failed
+2018-05-25 10:09:40|  35.6|  0.0|STATS |PointCloudClipper_Clipper_2_Vector(ClippingFactory): Processed 2 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:40|  35.6|  0.0|WARN  |PointCloudCoercerFactory: The following components will be dropped from the point cloud: ifc_parent_unique_id, color_red, color_green, color_blue
+2018-05-25 10:09:41|  35.8|  0.2|WARN  |PointCloudCoercerFactory: The following components will be dropped from the point cloud: ifc_parent_unique_id, color_red, color_green, color_blue
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|PointCloudClipper_Clipper_2_Solid(SolidIntersectionFactory): Processed 2 input feature(s), of which 2 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Clipper_2_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Clipper_2 INSIDE Splitter(TeeFactory): Cloned 2 input feature(s) into 4 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Clipper_2_INSIDE_0_HjlWOVp9U2Q= Feature Counter 0 17(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Clipper_2_INSIDE_1_h/eQ79zsvwQ= Feature Counter 0 22(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Clipper_2_<REJECTED> Feature Counter 0 2147745795(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Clipper_2_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_PointCloudCoercer_COERCED Feature Counter 0 19(TeeFactory): Cloned 7067 input feature(s) into 7067 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_PointCloudCoercer_<REJECTED> Feature Counter 0 2147680263(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_PointCloudCoercer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_2DForcer(TeeFactory): Cloned 7067 input feature(s) into 7067 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_2DForcer_2D Feature Counter 0 20(TeeFactory): Cloned 7067 input feature(s) into 7067 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_HullAccumulator_HULL Feature Counter 0 18(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_HullAccumulator_<REJECTED> Feature Counter 0 2147680262(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_HullAccumulator_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Output_2D1527235742 Output Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Output_3D1527235742 Output Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper Output_2D Output Renamer/Nuker(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper Output_3D Output Renamer/Nuker(TeeFactory): Cloned 2 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |PointCloudClipper_Output_2D Feature Counter -1 27(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA Input_storey Input Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA Input_pointCloud Input Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA Input_facade Input Collector(TeeFactory): Cloned 18 input feature(s) into 18 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_Input_facade1527235742 Input Splitter(TeeFactory): Cloned 18 input feature(s) into 18 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_Input_facade Feature Counter 5 82(TeeFactory): Cloned 18 input feature(s) into 18 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_Input_pointCloud1527235742 Input Splitter(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_Input_pointCloud Feature Counter 5 79(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_Input_storey1527235742 Input Splitter(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_Input_storey Feature Counter 5 87(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2 Input Input Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2_Input1527235742 Input Splitter(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2_Input Feature Counter 4 7(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2_AttributeCreator_OUTPUT Feature Counter 4 9(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2_BoundsExtractor(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2_BoundsExtractor_OUTPUT Feature Counter 4 10(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|28.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|inf
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|28.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|28.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|Continuing to process geometric dissolving tasks.  At number: 1
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2_PythonCaller_OUTPUT Feature Counter 4 8(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2_Output1527235742 Output Collector(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2 Output Output Renamer/Nuker(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_2_Output Feature Counter 5 85(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_3(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_3_router(TestFactory): Tested 2 input feature(s) -- 0 feature(s) passed and 2 feature(s) failed
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_3_FOOTPRINT Feature Counter 5 88(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_3_<REJECTED> Feature Counter 5 2147680333(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_3_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ Input Input Collector(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_Input1527235742 Input Splitter(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_Input Feature Counter 4 7(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_AttributeCreator_OUTPUT Feature Counter 4 9(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_BoundsExtractor(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_BoundsExtractor_OUTPUT Feature Counter 4 10(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|inf
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|0.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|LOGG MESSAGE
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|0.0
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|-40.0
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_PythonCaller_OUTPUT Feature Counter 4 8(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_Output1527235742 Output Collector(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ Output Output Renamer/Nuker(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_MinZ_Output Feature Counter 5 86(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_2(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_2_router(TestFactory): Tested 20 input feature(s) -- 0 feature(s) passed and 20 feature(s) failed
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_2 FOOTPRINT Splitter(TeeFactory): Cloned 20 input feature(s) into 40 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_2_FOOTPRINT_0_Yy3iGJFl1fk= Feature Counter 5 83(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_2_FOOTPRINT_1_HEHUUiJwZ3w= Feature Counter 5 96(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_2_<REJECTED> Feature Counter 5 74(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_2__Rejected_ (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_2_Footprint (Disabled) Nuker(TeeFactory): Cloned 20 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_HullAccumulator HULL Splitter(TeeFactory): Cloned 20 input feature(s) into 40 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_HullAccumulator_HULL_0_B7yI1BkWOKA= Feature Counter 5 100(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_HullAccumulator_HULL_1_JnwoUmWD76Q= Feature Counter 5 84(TeeFactory): Cloned 20 input feature(s) into 20 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_HullAccumulator_<REJECTED> Feature Counter 5 2147680334(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_HullAccumulator_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_HullAccumulator_Hull (Disabled) Nuker(TeeFactory): Cloned 20 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.8|  0.0|STATS |CreateBasisBYA_Dissolver_2(PolygonDissolveFactory_base_factory): Dissolving 22 input polygon(s) across 1 group(s)
+2018-05-25 10:09:41|  35.8|  0.0|INFORM|CreateBasisBYA_Dissolver_2(PolygonDissolveFactory_base_factory): If the input dataset is large or complex, the dissolver could run for extended periods of time without logging
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Topology Creation: The input geometry consisted of only 2 identical points and had zero length and area, so it will not be considered during topology creation.  Its coordinates were:
+2018-05-25 10:09:41|  35.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\seuppp\Documents\Exjobb\Calculation_of_Building_footprint_area\Workspace - utan objekt för BYA\Hjältevadshus\Hjältevadshus Spira 168 - utan objekt för BYA_log.ffs'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Feature Type: `'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Attribute(string): `fme_geometry' has value `fme_line'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Attribute(string): `fme_type' has value `fme_line'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Coordinate System: `'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Geometry Type: IFMELine
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Number of Geometry Traits: 1
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |GeometryTrait(32 bit unsigned integer): `___fme_dissolve_areas_segment___' has value `2'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Number of Coordinates: 2 -- Coordinate Dimension: 3
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |(20935.222151408856,540675.5793349231,-40.00000000000001)(20935.222151408856,540675.5793349231,-40)
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |===========================================================================
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Topology Creation: The input geometry consisted of only 2 identical points and had zero length and area, so it will not be considered during topology creation.  Its coordinates were:
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Feature Type: `'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Attribute(string): `fme_geometry' has value `fme_line'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Attribute(string): `fme_type' has value `fme_line'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Coordinate System: `'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Geometry Type: IFMELine
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Number of Geometry Traits: 1
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |GeometryTrait(32 bit unsigned integer): `___fme_dissolve_areas_segment___' has value `8'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Number of Coordinates: 2 -- Coordinate Dimension: 3
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |(16087.672123858656,543220.279529796,-40)(16087.672123858656,543220.279529796,28)
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |===========================================================================
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Topology Creation: The input geometry consisted of only 2 identical points and had zero length and area, so it will not be considered during topology creation.  Its coordinates were:
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Feature Type: `'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Attribute(string): `fme_geometry' has value `fme_line'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Attribute(string): `fme_type' has value `fme_line'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Coordinate System: `'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Geometry Type: IFMELine
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Number of Geometry Traits: 1
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |GeometryTrait(32 bit unsigned integer): `___fme_dissolve_areas_segment___' has value `5'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Number of Coordinates: 2 -- Coordinate Dimension: 3
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |(16637.598255261782,542902.779529796,-40)(16637.598255261782,542902.779529796,28.000000000000004)
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |===========================================================================
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Topology Creation: The input geometry consisted of only 2 identical points and had zero length and area, so it will not be considered during topology creation.  Its coordinates were:
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Feature Type: `'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Attribute(string): `fme_geometry' has value `fme_line'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Attribute(string): `fme_type' has value `fme_line'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Coordinate System: `'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Geometry Type: IFMELine
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Number of Geometry Traits: 1
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |GeometryTrait(32 bit unsigned integer): `___fme_dissolve_areas_segment___' has value `6'
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |Number of Coordinates: 2 -- Coordinate Dimension: 3
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |(9953.956268098564,546761.5820302517,28)(9953.956268098564,546761.5820302517,-40)
+2018-05-25 10:09:41|  35.8|  0.0|WARN  |===========================================================================
+2018-05-25 10:09:41|  35.9|  0.0|INFORM|Transferring input attributes onto output feature, this may take several minutes...
+2018-05-25 10:09:41|  35.9|  0.0|INFORM|PolygonDissolveFactory: Continuing to restore attributes. 4.54% complete
+2018-05-25 10:09:41|  35.9|  0.0|INFORM|PolygonDissolveFactory: Continuing to restore attributes. 100% complete
+2018-05-25 10:09:41|  35.9|  0.0|INFORM|Continuing to process geometric dissolving tasks.  At number: 1
+2018-05-25 10:09:41|  35.9|  0.0|INFORM|... Last line repeated 2 times ...
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Dissolver_2(PolygonDissolveFactory_base_factory): Completed polygon dissolve on all groups
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Dissolver_2_AREA Feature Counter 5 98(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Dissolver_2_<REJECTED> Feature Counter 5 2147745854(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Dissolver_2_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_BoundsExtractor(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_BoundsExtractor_OUTPUT Feature Counter 5 104(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_router(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer FOOTPRINT Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_FOOTPRINT_0_XVnp5F+6qN4= Feature Counter 5 92(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_FOOTPRINT_1_LkVnNU9eTtY= Feature Counter 5 101(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_<REJECTED> Feature Counter 5 2147680358(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_SurfaceFootprintReplacer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|INFORM|CreateBasisBYA_SurfaceFootprintReplacer_Footprint_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_DonutHoleExtractor_2_DonutHoleExtractor(DonutHoleFactory): Split 0 hole(s) from 1 input feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_DonutHoleExtractor_2_OUTERSHELL Feature Counter 5 70(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_DonutHoleExtractor_2_<REJECTED> Feature Counter 5 2147745856(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_DonutHoleExtractor_2_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Output1527235742 Output Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA Output Output Renamer/Nuker(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA Output Splitter(TeeFactory): Cloned 1 input feature(s) into 4 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Output_0_In/0OyOlsVQ= Feature Counter -1 171(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Output_1_T5Jb2OpP3KM= Feature Counter -1 172(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Output_2_rBWEBpnfrr0= Feature Counter -1 178(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |CreateBasisBYA_Output_3_lGtHYqgh6Ns= Feature Counter -1 205(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|INFORM|CreateBasisBYA_Output_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:41|  35.9|  0.0|STATS |AttributeManager_2_OUTPUT Feature Counter -1 145(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2 Bufferer_Input Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2 Clipper_Byggnad Input Collector(TeeFactory): Cloned 34 input feature(s) into 34 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Bufferer_Input1527235742 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Bufferer_Input Feature Counter 1 24(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Clipper_Byggnad1527235742 Input Splitter(TeeFactory): Cloned 34 input feature(s) into 34 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Clipper_Byggnad Feature Counter 1 26(TeeFactory): Cloned 34 input feature(s) into 34 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Bufferer BUFFERED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Bufferer_BUFFERED_0_TnsfLImQWG4= Feature Counter 1 15(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Bufferer_BUFFERED_1_2S1kEP9HTns= Feature Counter 1 16(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Bufferer_<REJECTED> Feature Counter 1 2147680263(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Bufferer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_SurfaceFootprintReplacer(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_SurfaceFootprintReplacer_router(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_SurfaceFootprintReplacer_FOOTPRINT Feature Counter 1 17(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_SurfaceFootprintReplacer_<REJECTED> Feature Counter 1 2147680267(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_SurfaceFootprintReplacer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Extruder(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Extruder_Rejector(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Extruder EXTRUDED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Extruder_EXTRUDED_0_bDY034+PL7k= Feature Counter 1 12(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Extruder_EXTRUDED_1_efe7vQYlvzU= Feature Counter 1 13(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Extruder_<REJECTED> Feature Counter 1 18(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|INFORM|Protruding_Part_2_Extruder__Rejected__Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Clipper_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Clipper_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Clipper_ClippeeFilter(TestFactory): Tested 34 input feature(s) -- 0 feature(s) passed and 34 feature(s) failed
+2018-05-25 10:09:41|  35.9|  0.0|STATS |Protruding_Part_2_Clipper_Vector(ClippingFactory): Processed 34 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:56|  50.5| 14.6|INFORM|FFS writer: Writing point cloud with 6144 point(s) to file 'C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.fps'
+2018-05-25 10:09:56|  50.5|  0.0|INFORM|FFS writer: Writing point cloud with 3403 point(s) to file 'C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector_1.fps'
+2018-05-25 10:09:57|  51.2|  0.6|INFORM|FFS writer: Writing point cloud with 336185 point(s) to file 'C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector_2.fps'
+2018-05-25 10:09:57|  51.3|  0.1|INFORM|Protruding_Part_2_Clipper_Solid(SolidIntersectionFactory): Processed 34 input feature(s), of which 0 feature(s) were clipped, 33 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Clipper_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Clipper_INSIDE Feature Counter 1 29(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Clipper_OUTSIDE Feature Counter 1 34(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Clipper_<REJECTED> Feature Counter 1 32(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|INFORM|Protruding_Part_2_Clipper__Rejected__Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_GeometryValidator PASSED Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_GeometryValidator_PASSED_0_1FPL3Go55Vo= Feature Counter 1 36(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_GeometryValidator_PASSED_1_qwdLrLaTtcY= Feature Counter 1 39(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_GeometryValidator_FAILED Feature Counter 1 38(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|INFORM|Protruding_Part_2_GeometryValidator_Failed_Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:57|  51.3|  0.0|INFORM|Protruding_Part_2_GeometryValidator_Passed_Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:57|  51.3|  0.0|INFORM|Protruding_Part_2_Extruder_Extruded_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Bufferer_Buffered (Disabled) Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Output_Inside1527235742 Output Collector(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Output_Outside1527235742 Output Collector(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2 Output_Inside Output Renamer/Nuker(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2 Output_Outside Output Renamer/Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2 Output_Outside Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Output_Inside Feature Counter -1 144(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Output_Outside_0_yl/q77daCR4= Feature Counter -1 147(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_2_Output_Outside_1_5buONxu8KeA= Feature Counter -1 198(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|INFORM|Utkragande_del_2_Output_Outside_2_Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:57|  51.3|  0.0|INFORM|Utkragande_del_2_Output_Inside_2_Recorder(RecorderFactory): Recorded 33 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:57|  51.3|  0.0|STATS |SurfaceFootprintReplacer_3(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |SurfaceFootprintReplacer_3_router(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:09:57|  51.3|  0.0|STATS |SurfaceFootprintReplacer_3_FOOTPRINT Feature Counter -1 206(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |SurfaceFootprintReplacer_3_<REJECTED> Feature Counter -1 2147680460(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |SurfaceFootprintReplacer_3_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part Bufferer_Input Input Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part Clipper_Byggnad Input Collector(TeeFactory): Cloned 76 input feature(s) into 76 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Bufferer_Input1527235742 Input Splitter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Bufferer_Input Feature Counter 1 24(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Clipper_Byggnad1527235742 Input Splitter(TeeFactory): Cloned 76 input feature(s) into 76 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Clipper_Byggnad Feature Counter 1 26(TeeFactory): Cloned 76 input feature(s) into 76 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Bufferer BUFFERED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Bufferer_BUFFERED_0_TnsfLImQWG4= Feature Counter 1 15(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Bufferer_BUFFERED_1_2S1kEP9HTns= Feature Counter 1 16(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Bufferer_<REJECTED> Feature Counter 1 2147680263(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Bufferer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_SurfaceFootprintReplacer(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_SurfaceFootprintReplacer_router(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_SurfaceFootprintReplacer_FOOTPRINT Feature Counter 1 17(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_SurfaceFootprintReplacer_<REJECTED> Feature Counter 1 2147680267(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_SurfaceFootprintReplacer_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Extruder(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Extruder_Rejector(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Extruder EXTRUDED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Extruder_EXTRUDED_0_bDY034+PL7k= Feature Counter 1 12(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Extruder_EXTRUDED_1_efe7vQYlvzU= Feature Counter 1 13(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Extruder_<REJECTED> Feature Counter 1 18(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|INFORM|Protruding_Part_Extruder__Rejected__Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Clipper_ClipperCloner(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Clipper_SolidClipperFilter(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Clipper_ClippeeFilter(TestFactory): Tested 76 input feature(s) -- 0 feature(s) passed and 76 feature(s) failed
+2018-05-25 10:09:57|  51.3|  0.0|STATS |Protruding_Part_Clipper_Vector(ClippingFactory): Processed 76 input feature(s), of which 0 feature(s) were clipped, 0 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:10:21|  75.1| 23.8|INFORM|FFS writer: Writing point cloud with 83967 point(s) to file 'C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector_3.fps'
+2018-05-25 10:10:21|  75.2|  0.1|INFORM|FFS writer: Writing point cloud with 43653 point(s) to file 'C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector_4.fps'
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Protruding_Part_Clipper_Solid(SolidIntersectionFactory): Processed 76 input feature(s), of which 1 feature(s) were clipped, 75 feature(s) were totally inside and 0 feature(s) were totally outside
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Clipper_Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Clipper_INSIDE Feature Counter 1 29(TeeFactory): Cloned 76 input feature(s) into 76 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Clipper_OUTSIDE Feature Counter 1 34(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Clipper_<REJECTED> Feature Counter 1 32(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Protruding_Part_Clipper__Rejected__Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_GeometryValidator PASSED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_GeometryValidator_PASSED_0_1FPL3Go55Vo= Feature Counter 1 36(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_GeometryValidator_PASSED_1_qwdLrLaTtcY= Feature Counter 1 39(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_GeometryValidator_FAILED Feature Counter 1 38(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Protruding_Part_GeometryValidator_Failed_Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Protruding_Part_GeometryValidator_Passed_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Protruding_Part_Extruder_Extruded_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Bufferer_Buffered (Disabled) Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Output_Inside1527235742 Output Collector(TeeFactory): Cloned 76 input feature(s) into 76 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Output_Outside1527235742 Output Collector(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part Output_Inside Output Renamer/Nuker(TeeFactory): Cloned 76 input feature(s) into 76 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part Output_Outside Output Renamer/Nuker(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part Output_Outside Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Output_Inside Feature Counter -1 146(TeeFactory): Cloned 76 input feature(s) into 76 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Output_Outside_0_70nvRCV7tqM= Feature Counter -1 148(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Protruding_Part_Output_Outside_1_nS31E1HIzP0= Feature Counter -1 199(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Utkragande_del_Output_Outside_2_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Aggregator(AggregateFactory): Combined 1 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Aggregator_AGGREGATE Feature Counter -1 200(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |ListElementCounter(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |ListElementCounter_OUTPUT Feature Counter -1 179(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Continuing to process geometric dissolving tasks.  At number: 2
+2018-05-25 10:10:21|  75.3|  0.0|STATS |ListBasedFeatureMerger(ReferenceFactory): Total Results: 1 Complete Feature(s), 0 Incomplete Feature(s), 0 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |ListBasedFeatureMerger_MERGED Feature Counter -1 183(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |ListBasedFeatureMerger_<REJECTED> Feature Counter -1 2147877052(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |ListBasedFeatureMerger_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |SurfaceFootprintReplacer_2(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |SurfaceFootprintReplacer_2_router(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:10:21|  75.3|  0.0|STATS |SurfaceFootprintReplacer_2_FOOTPRINT Feature Counter -1 201(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |SurfaceFootprintReplacer_2_<REJECTED> Feature Counter -1 2147680438(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |SurfaceFootprintReplacer_2_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Dissolver_2(PolygonDissolveFactory_base_factory): Dissolving 2 input polygon(s) across 1 group(s)
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Dissolver_2(PolygonDissolveFactory_base_factory): If the input dataset is large or complex, the dissolver could run for extended periods of time without logging
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Transferring input attributes onto output feature, this may take several minutes...
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|PolygonDissolveFactory: Continuing to restore attributes. 50% complete
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|PolygonDissolveFactory: Continuing to restore attributes. 100% complete
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Dissolver_2(PolygonDissolveFactory_base_factory): Completed polygon dissolve on all groups
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Dissolver_2_AREA Feature Counter -1 203(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Dissolver_2_<REJECTED> Feature Counter -1 2147745977(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Dissolver_2_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AreaCalculator(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AreaCalculator_Rejector(TestFactory): Tested 1 input feature(s) -- 0 feature(s) passed and 1 feature(s) failed
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AreaCalculator_OUTPUT Feature Counter -1 211(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AreaCalculator_<REJECTED> Feature Counter -1 2147680281(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AreaCalculator_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AttributeRounder(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AttributeRounder_AttributeRounder(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AttributeRounder_OUTPUT Feature Counter -1 276(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AttributeRounder_<REJECTED> Feature Counter -1 2147680466(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AttributeRounder_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AttributeKeeper_2(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |AttributeKeeper_2_OUTPUT Feature Counter -1 212(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Extruder(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Extruder_Rejector(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Extruder EXTRUDED Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Extruder_EXTRUDED_0_kfw687BSEmc= Feature Counter -1 230(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Extruder_EXTRUDED_1_yivV7y3+k8I= Feature Counter -1 238(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Extruder_<REJECTED> Feature Counter -1 2147680463(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|STATS |Extruder_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:21|  75.3|  0.0|INFORM|Extruder_Extruded_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:22|  76.5|  1.2|INFORM|Creating writer for format: GML (Geography Markup Language)
+2018-05-25 10:10:22|  76.6|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `GML'
+2018-05-25 10:10:23|  76.8|  0.2|INFORM|Loaded module 'GML' from file 'C:\Program Files\FME\plugins/GML.dll'
+2018-05-25 10:10:23|  76.8|  0.0|INFORM|FME API version of module 'GML' matches current internal version (3.8 20170315)
+2018-05-25 10:10:23|  76.8|  0.0|INFORM|FME Configuration: Destination coordinate system set to `SWEREF-99-18-00'
+2018-05-25 10:10:23|  76.8|  0.0|INFORM|Coordinate System `SWEREF-99-18-00' parameters: CS_NAME=`SWEREF-99-18-00' DESC_NM=`SWEREF 99 18 00' DT_NAME=`SWEREF99' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`60.85' MAX_LNG=`19.483333333333334' MIN_LAT=`58.5' MIN_LNG=`16.816666666666666' PARM1=`18' PROJ=`TM' QUAD=`1' SCL_RED=`1' SOURCE=`National Land Survey of Sweden' UNIT=`METER' X_OFF=`150000' 
+2018-05-25 10:10:23|  76.8|  0.0|INFORM|FME API version of module 'GML' matches current internal version (3.8 20170315)
+2018-05-25 10:10:23|  76.8|  0.0|INFORM|Writer `GML_1' of type `GML' using group definition keyword `GML_1_DEF'
+2018-05-25 10:10:23|  76.8|  0.0|INFORM|FME API version of module 'GML' matches current internal version (3.8 20170315)
+2018-05-25 10:10:23|  76.8|  0.0|INFORM|<GML_1 Writer> - Using GML 'GENERIC_3.1.1' profile writer
+2018-05-25 10:10:23|  76.8|  0.0|INFORM|<GML_1 Writer> - Calculating dataset bounding box, please wait...
+2018-05-25 10:10:23|  77.2|  0.3|STATS |SolidBuilder SOLID Splitter(TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|STATS |SolidBuilder_SOLID_0_54TRw8qX6JU= Feature Counter -1 240(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|STATS |SolidBuilder_SOLID_1_yVAcDDTUBVw= Feature Counter -1 245(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|STATS |SolidBuilder_<REJECTED> Feature Counter -1 2147746029(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|STATS |SolidBuilder_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|STATS |CsmapReprojector_2(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|STATS |CsmapReprojector_2_REPROJECTED Feature Counter -1 246(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|STATS |AttributeCreator_2_OUTPUT Feature Counter -1 248(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|INFORM|SolidBuilder_Solid_Recorder(RecorderFactory): Recorded 1 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:23|  77.2|  0.0|STATS |Stored 120 feature(s) to FME feature store file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:23|  77.2|  0.0|INFORM|Saving spatial index into file 'C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.fsi'
+2018-05-25 10:10:23|  77.2|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.fsi'
+2018-05-25 10:10:23|  77.2|  0.0|INFORM|Utkragande_del_Output_Inside_2_Recorder(RecorderFactory): Recorded 76 feature(s) to file `C:\Users\seuppp\AppData\Local\Temp\Hjältevadshus_Spira_168_-_utan_objekt_för_BYA_100904\inspector.ffs'
+2018-05-25 10:10:23|  77.2|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 0 matched merge filters, 1 were routed to output, 0 could not be routed.
+2018-05-25 10:10:23|  77.2|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|STATS |f_626(CreationFactory): Created 1 features
+2018-05-25 10:10:23|  77.2|  0.0|STATS |f_627(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-05-25 10:10:23|  77.2|  0.0|INFORM|<GML_1 Writer> - Writing the GML application schema document 'C:\Users\seuppp\Documents\Exjobb\Calculation_of_Building_footprint_area\Workspace - utan objekt för BYA\Hjältevadshus\Spira168_BYA2.xsd'
+2018-05-25 10:10:23|  77.2|  0.0|INFORM|<GML_1 Writer> - Writing the GML document 'C:\Users\seuppp\Documents\Exjobb\Calculation_of_Building_footprint_area\Workspace - utan objekt för BYA\Hjältevadshus\Spira168_BYA2.gml'
+2018-05-25 10:10:23|  77.2|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:23|  77.2|  0.0|INFORM|Feature output statistics for `GML' writer using keyword `GML_1':
+2018-05-25 10:10:23|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:23|  77.2|  0.0|STATS |                               Features Written
+2018-05-25 10:10:23|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:23|  77.2|  0.0|STATS |Building                                                                     1
+2018-05-25 10:10:23|  77.2|  0.0|STATS |==============================================================================
+2018-05-25 10:10:23|  77.2|  0.0|STATS |Total Features Written                                                       1
+2018-05-25 10:10:23|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:23|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:23|  77.2|  0.0|STATS |                            Features Read Summary
+2018-05-25 10:10:23|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcAnnotation                                                                5
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcBeam                                                                      5
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcBuilding                                                                  1
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcBuildingElementProxy                                                    703
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcBuildingStorey                                                           10
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcCovering                                                                  4
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcDoor                                                                     41
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcFlowController                                                            1
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcFlowFitting                                                               8
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcFlowSegment                                                               5
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcFlowTerminal                                                             13
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcFooting                                                                   6
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcOpeningElement                                                          219
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcProject                                                                   1
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcRailing                                                                   3
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcRoof                                                                      3
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcSite                                                                      1
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcSlab                                                                      6
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcSpace                                                                    12
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcStair                                                                     2
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcWall                                                                      3
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcWallStandardCase                                                         78
+2018-05-25 10:10:23|  77.2|  0.0|STATS |IfcWindow                                                                   19
+2018-05-25 10:10:23|  77.2|  0.0|STATS |PropertySetDefinition                                                       40
+2018-05-25 10:10:23|  77.2|  0.0|STATS |QuantitySetDefinition                                                        1
+2018-05-25 10:10:23|  77.2|  0.0|STATS |==============================================================================
+2018-05-25 10:10:23|  77.2|  0.0|STATS |Total Features Read                                                       1190
+2018-05-25 10:10:23|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:24|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:24|  77.2|  0.0|STATS |                           Features Written Summary
+2018-05-25 10:10:24|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:24|  77.2|  0.0|STATS |Building                                                                     1
+2018-05-25 10:10:24|  77.2|  0.0|STATS |==============================================================================
+2018-05-25 10:10:24|  77.2|  0.0|STATS |Total Features Written                                                       1
+2018-05-25 10:10:24|  77.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-25 10:10:24|  77.3|  0.0|INFORM|Translation was SUCCESSFUL with 61 warning(s) (1 feature(s) output)
+2018-05-25 10:10:24|  77.3|  0.0|STATS |Stored 4 feature(s) to FME feature store file `C:\Users\seuppp\Documents\Exjobb\Calculation_of_Building_footprint_area\Workspace - utan objekt för BYA\Hjältevadshus\Hjältevadshus Spira 168 - utan objekt för BYA_log.ffs'
+2018-05-25 10:10:24|  77.3|  0.0|INFORM|FME Session Duration: 1 minute 19.3 seconds. (CPU: 74.0s user, 2.3s system)
+2018-05-25 10:10:24|  77.3|  0.0|INFORM|END - ProcessID: 2196, peak process memory usage: 257808 kB, current process memory usage: 171580 kB
