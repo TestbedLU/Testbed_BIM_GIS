@@ -1,4 +1,5 @@
 # Testbed_BIM_GIS
+*Description of testbed*
 
 * Building area
 * Building height
@@ -6,7 +7,13 @@
 * Conversion IFC to SGP 3.0 (LoD2)
 * Conversion IFC to SGP 3.0 (LoD3)
 
-BSD 3-Clause License
+*Links:*
 
-Copyright (c) 2018, TestbedLU
-All rights reserved.
+*Master Thesis*
+
+*Article*
+
+*BSD 3-Clause License*
+
+*Copyright (c) 2018, TestbedLU*
+*All rights reserved.*
