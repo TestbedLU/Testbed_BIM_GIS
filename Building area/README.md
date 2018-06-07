@@ -16,6 +16,7 @@ __Spira 175__
 ## Multihuset
 A large house with many different uses.
 
+<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/Multihuset/Pictures%20-%20house%20models/multihus3.PNG" width="411" height="236">
 
 ## License
 *BSD 3-Clause License*
