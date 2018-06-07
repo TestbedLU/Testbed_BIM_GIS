@@ -7,6 +7,9 @@
 * Conversion IFC to SGP 3.0 (LoD2)
 * Conversion IFC to SGP 3.0 (LoD3)
 
+## Built with
+[FME](https://www.safe.com/) - Safe Software
+
 ## Links
 
 *Master Thesis*
