@@ -21,7 +21,7 @@ A large house with many different uses.
 
 ## Calculation with object representing BUA
 
-###Kamakura House
+### Kamakura House
 
 ## License
 *BSD 3-Clause License*
