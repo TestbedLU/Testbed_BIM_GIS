@@ -1,6 +1,7 @@
 # Calculation of building area/footprint area for IFC-models
 
-## Hjaltevadhus
+## Calculation without object representing BUA (Building area)
+### Hjaltevadhus
 2 models of singel family homes, Spira 168 and Spira 175, produced by house manufacturers Hjältevadshus.
 
 __Spira 168__
@@ -13,10 +14,14 @@ __Spira 175__
 
 ---
 
-## Multihuset
+### Multihuset
 A large house with many different uses.
 
 <img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/Multihuset/Pictures%20-%20house%20models/multihus3.PNG" width="411" height="236">
+
+## Calculation with object representing BUA
+
+###Kamakura House
 
 ## License
 *BSD 3-Clause License*
