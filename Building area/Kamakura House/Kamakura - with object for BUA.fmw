@@ -1,0 +1,904 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" "E:\Josefine\Testbed_BIM_GIS\Building area\Kamakura House\Kamakura - with object for BUA.fmw"
+#          --SourceDataset_IFC "C:\Users\seuppp\Documents\Exjobb\EXJOBB\FME-skript\Husmodeller\IFC-filer från Martin\180301 - Kamakura House.ifc"
+#    
+#    
+#!   VIEW_POSITION="-4090.67 1934.39"
+#!   DESTINATION="NONE"
+#!   USE_MARKDOWN=""
+#!   TITLE="Kamakura - med objekt för BYA"
+#!   MARKDOWN_USAGE=""
+#!   FME_SERVER_SERVICES=""
+#!   SHOW_INFO_NODES="true"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   BEGIN_PYTHON=""
+#!   WORKSPACE_VERSION="1"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   HISTORY=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   DESTINATION_ROUTING_FILE=""
+#!   IGNORE_READER_FAILURE="No"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   LOG_FILE=""
+#!   CATEGORY=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   DOC_TOP_LEFT="-2540.65 636.509"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MAX_LOG_FEATURES="200"
+#!   USAGE=""
+#!   FME_DOCUMENT_GUID="7c8b2927-fadb-4645-9e5b-143dea439299"
+#!   END_PYTHON=""
+#!   SOURCE_ROUTING_FILE=""
+#!   LAST_SAVE_DATE="2018-06-12T11:22:56"
+#!   DESCRIPTION=""
+#!   FME_DOCUMENT_PRIORGUID="15fdda03-8401-4954-b0fe-269d0a7d2117,fdb72af9-a802-4ba1-9be2-2ba085873e04,87aa86ab-3d98-4c82-914e-dd5f558aa522,d1c8700a-ac1a-4b8a-8dd0-705eac81c8c5"
+#!   FME_BUILD_NUM="17291"
+#!   ZOOM_SCALE="100"
+#!   END_TCL=""
+#!   TERMINATE_REJECTED="YES"
+#!   BEGIN_TCL=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   PASSWORD=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.1.1 (20170512 - Build 17291 - WIN64)"
+#!   SOURCE="NONE"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   DOC_EXTENTS="1433.39 509.131"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="IFC"
+#!   DATASET="$(SourceDataset_IFC)"
+#!   KEYWORD="IFC_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="multi_reader_keyword char(50) ifc_representation instance ifc_parent_id string ifc_context_type string ifc_type string ifc_context_dimension string multi_reader_type char(50) ifc_native_attribute_type string fme_secondary_axis number fme_geometry fme_char(50) ifc_object_placement instance fme_sweep_angle number ifc_unique_id string fme_basename char(50) ifc_entity_type string fme_type char(50) ifc_context_precision string ifc_attribute_type string ifc_decomposes instance ifc_material.layer{}.is_ventilated string fme_fill_color char(50) ifc_material.name string ifc_is_contained_in instance ifc_parent_unique_id string ifc_material.layer_set_name string ifc_is_decomposed_by{} instance fme_color char(50) ifc_representation_identifier string multi_reader_full_id int fme_rotation number ifc_representations{}.type string ifc_representations{}.identifier string multi_reader_id int fme_text_size number fme_primary_axis number fme_text_string char(50) ifc_id string fme_start_angle number ifc_contains{} instance ifc_material.material{}.name string ifc_material.layer{}.name string fme_dataset char(50) ifc_material.layer{}.thickness string ifc_instance_name instance fme_feature_type char(50)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="17725"
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   FEATURE_TYPES=""
+#!   COORDSYS=""
+#!   MAX_FEATURES=""
+#!   START_FEATURE=""
+#!   MIN_FEATURES=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="ifc file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the IFC file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Object1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Object"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="binary"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="binary(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="binary(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bool"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="enumeration"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="generic"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="real"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="real(width)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="real(11)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="real(20)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="real(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="select"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="instance"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="IFC"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geometry"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="IFC"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_text"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_solid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_bounding_box"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_collection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="IFC"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="ifc_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="IFC"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="IfcSpace"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="6"
+#!   FEAT_GEOMTYPE="ifc_no_geom ifc_point ifc_line ifc_polygon ifc_surface ifc_solid ifc_text ifc_bounding_box ifc_collection"
+#!   POSITION="-2540.65 982.512"
+#!   BOUNDING_RECT="-2540.65 982.512 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="IFC_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="GlobalId" ATTR_TYPE="char(22)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Description" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ObjectType" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LongName" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="CompositionType" ATTR_TYPE="enumeration" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="InteriorOrExteriorSpace" ATTR_TYPE="enumeration" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ElevationWithFlooring" ATTR_TYPE="real" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Axis" ATTR_TYPE="geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Body" ATTR_TYPE="geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Box" ATTR_TYPE="geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FootPrint" ATTR_TYPE="geometry" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ifc_unique_id" ATTR_TYPE="string"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ifc_parent_unique_id" ATTR_TYPE="string"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="ifc_parent_id" ATTR_TYPE="string"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_IFC IFC_File(*.ifc)|*.ifc|All_files(*)|* Source Industry Foundation Class (IFC) File(s):"
+#!   DEFAULT_VALUE="C:\Users\seuppp\Documents\Exjobb\EXJOBB\FME-skript\Husmodeller\IFC-filer från Martin\180301 - Kamakura House.ifc"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="13"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sort out the right IfcSpace object&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1959.4 1145.64"
+#!   TOP_LEFT="-1959.4 1145.64"
+#!   BOTTOM_RIGHT="-1960.4 1146.64"
+#!   BOUNDING_RECT="-1959.4 1145.64 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="2"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Tester"
+#!   VERSION="2"
+#!   POSITION="-1910.39 982.512"
+#!   BOUNDING_RECT="-1910.39 982.512 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17725"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="GlobalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ObjectType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LongName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CompositionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InteriorOrExteriorSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ElevationWithFlooring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Axis" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Box" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FootPrint" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="GlobalId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ObjectType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LongName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CompositionType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InteriorOrExteriorSpace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ElevationWithFlooring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Axis" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Box" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FootPrint" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;LongName&lt;closeparen&gt; = Area"/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="4"
+#!   TYPE="SurfaceFootprintReplacer"
+#!   VERSION="0"
+#!   POSITION="-1885.4 707.509"
+#!   BOUNDING_RECT="-1885.4 707.509 538.506 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17725"
+#! >
+#!     <OUTPUT_FEAT NAME="FOOTPRINT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="GlobalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ObjectType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LongName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CompositionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InteriorOrExteriorSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ElevationWithFlooring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Axis" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Box" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FootPrint" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="GlobalId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ObjectType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LongName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CompositionType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InteriorOrExteriorSpace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ElevationWithFlooring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Axis" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Box" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FootPrint" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIGHT_X" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SurfaceFootprintReplacer"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIGHT_Z" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="OFFSET_Z" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="SHADOW_MODE" PARM_VALUE="Overhead Shadow"/>
+#!     <XFORM_PARM PARM_NAME="LIGHT_Y" PARM_VALUE="0"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="AreaCalculator"
+#!   VERSION="2"
+#!   POSITION="-1137.65 982.512"
+#!   BOUNDING_RECT="-1137.65 982.512 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17725"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="GlobalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ObjectType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LongName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CompositionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InteriorOrExteriorSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ElevationWithFlooring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Axis" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Box" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FootPrint" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="GlobalId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ObjectType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LongName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CompositionType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InteriorOrExteriorSpace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ElevationWithFlooring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Axis" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Box" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FootPrint" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AREA_TYPE" PARM_VALUE="Plane Area"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AreaCalculator"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AREA_ATTR" PARM_VALUE="_area"/>
+#!     <XFORM_PARM PARM_NAME="MULT" PARM_VALUE="1/1000000"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="9"
+#!   TYPE="AttributeRounder"
+#!   VERSION="3"
+#!   POSITION="-1107.26 713.759"
+#!   BOUNDING_RECT="-1107.26 713.759 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17725"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="GlobalId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ObjectType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LongName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CompositionType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InteriorOrExteriorSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ElevationWithFlooring" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Axis" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Body" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Box" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FootPrint" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="GlobalId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ObjectType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LongName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="CompositionType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InteriorOrExteriorSpace" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ElevationWithFlooring" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Axis" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Body" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Box" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FootPrint" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="_area"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRounder"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PLACES" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="ROUND_TYPE" PARM_VALUE="Nearest"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="3"
+#!   SOURCE_NODE="6"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="5"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="fo 0 PASSED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="8"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 0 FOOTPRINT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="10"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE SourceDataset_IFC_1,IFC_IN_READER_OPTIONS_IFC_1,IFC_IN_PREDEFINED_REPRESENTATION_IDENTIFIERS_IFC_1,IFC_IN_ADDITIONAL_REPRESENTATION_IDENTIFIERS_IFC_1,IFC_IN_DEPRECATED_READER_OPTIONS_IFC_1,IFC_IN_SPLIT_REPRESENTATIONS_IFC_1,IFC_IN_CONTEXT_TYPES_IFC_1,IFC_IN_REPRESENTATION_IDENTIFIERS_IFC_1,IFC_IN_REPRESENTATION_TYPES_IFC_1,IFC_IN_IFCSPACE_GEOMETRY_IFC_1,IFC_IN_SUBTRACT_OPENINGS_IFC_1,IFC_IN_ADD_PROJECTIONS_IFC_1,IFC_IN_EVALUATE_CSG_SOLIDS_IFC_1,IFC_IN_SIMPLIFY_BASE_FACES_IFC_1,IFC_IN_STRING_ENCODING_IFC_1,IFC_IN_EXPOSE_ATTRS_GROUP_IFC_1,IFC_IN_SEARCH_ENVELOPE_MINX_IFC_1,IFC_IN_SEARCH_ENVELOPE_MINY_IFC_1,IFC_IN_SEARCH_ENVELOPE_MAXX_IFC_1,IFC_IN_SEARCH_ENVELOPE_MAXY_IFC_1,IFC_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_IFC_1,IFC_IN_CLIP_TO_ENVELOPE_IFC_1,IFC_IN_NETWORK_AUTHENTICATION_IFC_1
+DEFAULT_MACRO SourceDataset_IFC C:\Users\seuppp\Documents\Exjobb\EXJOBB\FME-skript\Husmodeller\IFC-filer från Martin\180301 - Kamakura House.ifc
+GUI MULTIFILE SourceDataset_IFC IFC_File(*.ifc)|*.ifc|All_files(*)|* Source Industry Foundation Class (IFC) File(s):
+INCLUDE [ if {{$(SourceDataset_IFC)} == {}} { puts_real {Parameter 'SourceDataset_IFC' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE IFC
+READER_KEYWORD IFC_1
+READER_GEN_DIRECTIVES PREDEFINED_REPRESENTATION_IDENTIFIERS,<lt>Unused<gt>,READER_OPTIONS,FME_DISCLOSURE_OPEN,USE_SEARCH_ENVELOPE,NO,REPRESENTATION_TYPES,<lt>Unused<gt>,CONTEXT_TYPES,<lt>Unused<gt>,CREATE_PQSET_DEFINITION_FEATURES,Yes,IFCSPACE_GEOMETRY,Yes,REPRESENTATION_IDENTIFIERS,<lt>Unused<gt>,STRING_ENCODING,,READER_MODE,Relational,READER_VERSION,2014,SIMPLIFY_BASE_FACES,No,ADDITIONAL_REPRESENTATION_IDENTIFIERS,<lt>Unused<gt>,ADD_PROJECTIONS,Yes,PQSET_READ_MODE,GEOMETRIES,EVALUATE_CSG_SOLIDS,Yes,EXPOSE_ATTRS_GROUP,,DEPRECATED_READER_OPTIONS,,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,_MERGE_SCHEMAS,YES,CLIP_TO_ENVELOPE,NO,IFC_EXPOSE_FORMAT_ATTRS,,SEARCH_ENVELOPE_MINX,0,SPLIT_REPRESENTATIONS,<lt>Unused<gt>,SEARCH_ENVELOPE_MAXY,0,READER_VERSION_MESSAGE,,SUBTRACT_OPENINGS,Yes,READ_ALL_REPRESENTATIONS,YES,SEARCH_ENVELOPE_MAXX,0
+
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "IFC_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER IFC IFC_1
+# =====================================================================
+# The following GUI line prompts for a file to be used as the source
+# IFC file. The user input is stored in a macro, which is then
+# used to define the dataset to be read.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_IFC_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER IFC IFC_1
+DEFAULT_MACRO SourceDataset_IFC_1 $(SourceDataset_IFC)
+GUI MULTIFILE SourceDataset_IFC_1 IFC_File(*.ifc)|*.ifc|All_files(*)|* Source Industry Foundation Class (IFC) File(s):
+DEFAULT_MACRO IFC_IN_READER_VERSION_IFC_1 2014
+IFC_1_READER_VERSION "$(IFC_IN_READER_VERSION_IFC_1)"
+DEFAULT_MACRO IFC_IN_READER_OPTIONS_IFC_1 FME_DISCLOSURE_OPEN
+IFC_1_READER_OPTIONS "$(IFC_IN_READER_OPTIONS_IFC_1)"
+GUI OPTIONAL DISCLOSUREGROUP IFC_IN_READER_OPTIONS_IFC_1 FME_DISCLOSURE_OPEN%IFC_IN_READER_MODE%IFC_IN_READ_ALL_REPRESENTATIONS%IFC_IN_PREDEFINED_REPRESENTATION_IDENTIFIERS_IFC_1%IFC_IN_ADDITIONAL_REPRESENTATION_IDENTIFIERS_IFC_1%IFC_IN_CREATE_PQSET_DEFINITION_FEATURES%IFC_IN_PQSET_READ_MODE Reader Parameters
+DEFAULT_MACRO IFC_IN_READER_MODE_IFC_1 Relational
+IFC_1_READER_MODE "$(IFC_IN_READER_MODE_IFC_1)"
+DEFAULT_MACRO IFC_IN_READ_ALL_REPRESENTATIONS_IFC_1 YES
+IFC_1_READ_ALL_REPRESENTATIONS "$(IFC_IN_READ_ALL_REPRESENTATIONS_IFC_1)"
+DEFAULT_MACRO IFC_IN_PREDEFINED_REPRESENTATION_IDENTIFIERS_IFC_1 <Unused>
+IFC_1_PREDEFINED_REPRESENTATION_IDENTIFIERS "$(IFC_IN_PREDEFINED_REPRESENTATION_IDENTIFIERS_IFC_1)"
+GUI NO_SORT LISTBOX IFC_IN_PREDEFINED_REPRESENTATION_IDENTIFIERS_IFC_1 Box%Annotation%Axis%FootPrint%Profile%Surface%Body%Body-Fallback%Clearance%Lighting Representations to Read
+DEFAULT_MACRO IFC_IN_ADDITIONAL_REPRESENTATION_IDENTIFIERS_IFC_1 <Unused>
+IFC_1_ADDITIONAL_REPRESENTATION_IDENTIFIERS "$(IFC_IN_ADDITIONAL_REPRESENTATION_IDENTIFIERS_IFC_1)"
+GUI OPTIONAL TEXT IFC_IN_ADDITIONAL_REPRESENTATION_IDENTIFIERS_IFC_1 Additional Representations to Read
+DEFAULT_MACRO IFC_IN_CREATE_PQSET_DEFINITION_FEATURES_IFC_1 Yes
+IFC_1_CREATE_PQSET_DEFINITION_FEATURES "$(IFC_IN_CREATE_PQSET_DEFINITION_FEATURES_IFC_1)"
+DEFAULT_MACRO IFC_IN_PQSET_READ_MODE_IFC_1 GEOMETRIES
+IFC_1_PQSET_READ_MODE "$(IFC_IN_PQSET_READ_MODE_IFC_1)"
+DEFAULT_MACRO IFC_IN_DEPRECATED_READER_OPTIONS_IFC_1 
+GUI OPTIONAL DISCLOSUREGROUP IFC_IN_DEPRECATED_READER_OPTIONS_IFC_1 IFC_IN_SPLIT_REPRESENTATIONS_IFC_1%IFC_IN_CONTEXT_TYPES_IFC_1%IFC_IN_REPRESENTATION_IDENTIFIERS_IFC_1%IFC_IN_REPRESENTATION_TYPES_IFC_1 Deprecated Reader Parameters
+DEFAULT_MACRO IFC_IN_SPLIT_REPRESENTATIONS_IFC_1 <Unused>
+IFC_1_SPLIT_REPRESENTATIONS "$(IFC_IN_SPLIT_REPRESENTATIONS_IFC_1)"
+GUI CHOICE IFC_IN_SPLIT_REPRESENTATIONS_IFC_1 Yes%No Split Multiple Representations:
+DEFAULT_MACRO IFC_IN_CONTEXT_TYPES_IFC_1 <Unused>
+IFC_1_CONTEXT_TYPES "$(IFC_IN_CONTEXT_TYPES_IFC_1)"
+GUI OPTIONAL TEXT IFC_IN_CONTEXT_TYPES_IFC_1 Representation Context Types to Read:
+DEFAULT_MACRO IFC_IN_REPRESENTATION_IDENTIFIERS_IFC_1 <Unused>
+IFC_1_REPRESENTATION_IDENTIFIERS "$(IFC_IN_REPRESENTATION_IDENTIFIERS_IFC_1)"
+GUI OPTIONAL TEXT IFC_IN_REPRESENTATION_IDENTIFIERS_IFC_1 Representation Identifiers to Read:
+DEFAULT_MACRO IFC_IN_REPRESENTATION_TYPES_IFC_1 <Unused>
+IFC_1_REPRESENTATION_TYPES "$(IFC_IN_REPRESENTATION_TYPES_IFC_1)"
+GUI OPTIONAL TEXT IFC_IN_REPRESENTATION_TYPES_IFC_1 Representation Types to Read:
+DEFAULT_MACRO IFC_IN_IFCSPACE_GEOMETRY_IFC_1 Yes
+IFC_1_IFCSPACE_GEOMETRY "$(IFC_IN_IFCSPACE_GEOMETRY_IFC_1)"
+GUI CHOICE IFC_IN_IFCSPACE_GEOMETRY_IFC_1 Yes%No Read IfcSpace Geometries:
+DEFAULT_MACRO IFC_IN_SUBTRACT_OPENINGS_IFC_1 Yes
+IFC_1_SUBTRACT_OPENINGS "$(IFC_IN_SUBTRACT_OPENINGS_IFC_1)"
+GUI CHOICE IFC_IN_SUBTRACT_OPENINGS_IFC_1 Yes%No Subtract Opening Geometries:
+DEFAULT_MACRO IFC_IN_ADD_PROJECTIONS_IFC_1 Yes
+IFC_1_ADD_PROJECTIONS "$(IFC_IN_ADD_PROJECTIONS_IFC_1)"
+GUI CHOICE IFC_IN_ADD_PROJECTIONS_IFC_1 Yes%No Add Projecting Geometries:
+DEFAULT_MACRO IFC_IN_EVALUATE_CSG_SOLIDS_IFC_1 Yes
+IFC_1_EVALUATE_CSG_SOLIDS "$(IFC_IN_EVALUATE_CSG_SOLIDS_IFC_1)"
+GUI CHOICE IFC_IN_EVALUATE_CSG_SOLIDS_IFC_1 Yes%No Evaluate CSG Solids
+DEFAULT_MACRO IFC_IN_SIMPLIFY_BASE_FACES_IFC_1 No
+IFC_1_SIMPLIFY_BASE_FACES "$(IFC_IN_SIMPLIFY_BASE_FACES_IFC_1)"
+GUI CHOICE IFC_IN_SIMPLIFY_BASE_FACES_IFC_1 Yes%No Simplify Extrusion Base Faces
+DEFAULT_MACRO IFC_IN_STRING_ENCODING_IFC_1 
+IFC_1_STRING_ENCODING "$(IFC_IN_STRING_ENCODING_IFC_1)"
+GUI OPTIONAL ENCODING IFC_IN_STRING_ENCODING_IFC_1 * String Encoding:
+DEFAULT_MACRO IFC_IN_EXPOSE_ATTRS_GROUP_IFC_1 
+IFC_1_EXPOSE_ATTRS_GROUP "$(IFC_IN_EXPOSE_ATTRS_GROUP_IFC_1)"
+GUI OPTIONAL DISCLOSUREGROUP IFC_IN_EXPOSE_ATTRS_GROUP_IFC_1 IFC_IN_IFC_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add external search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO IFC_IN_SEARCH_ENVELOPE_MINX_IFC_1 0
+IFC_1_SEARCH_ENVELOPE "$(IFC_IN_SEARCH_ENVELOPE_MINX_IFC_1)"
+GUI OPTIONAL FLOAT IFC_IN_SEARCH_ENVELOPE_MINX_IFC_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO IFC_IN_SEARCH_ENVELOPE_MINY_IFC_1 0
+IFC_1_SEARCH_ENVELOPE "$(IFC_IN_SEARCH_ENVELOPE_MINY_IFC_1)"
+GUI OPTIONAL FLOAT IFC_IN_SEARCH_ENVELOPE_MINY_IFC_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO IFC_IN_SEARCH_ENVELOPE_MAXX_IFC_1 0
+IFC_1_SEARCH_ENVELOPE "$(IFC_IN_SEARCH_ENVELOPE_MAXX_IFC_1)"
+GUI OPTIONAL FLOAT IFC_IN_SEARCH_ENVELOPE_MAXX_IFC_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO IFC_IN_SEARCH_ENVELOPE_MAXY_IFC_1 0
+IFC_1_SEARCH_ENVELOPE "$(IFC_IN_SEARCH_ENVELOPE_MAXY_IFC_1)"
+GUI OPTIONAL FLOAT IFC_IN_SEARCH_ENVELOPE_MAXY_IFC_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO IFC_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_IFC_1 
+IFC_1_SEARCH_ENVELOPE "$(IFC_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_IFC_1)"
+GUI OPTIONAL COORDSYS IFC_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_IFC_1 Search Envelope Coordinate System:
+# ===========================================================================
+# BUG18999: We now have a soft clip to fall back on like native spatial index
+# thus we are reintroducing the clip to envelop as an option for users.
+# Defualt to soft clip as per the existing database readers we are emulating
+DEFAULT_MACRO IFC_IN_CLIP_TO_ENVELOPE_IFC_1 NO
+IFC_1_CLIP_TO_ENVELOPE "$(IFC_IN_CLIP_TO_ENVELOPE_IFC_1)"
+GUI OPTIONAL CHECKBOX IFC_IN_CLIP_TO_ENVELOPE_IFC_1 YES%NO Clip to Search Envelope
+# ===========================================================================
+DEFAULT_MACRO IFC_IN_NETWORK_AUTHENTICATION_IFC_1 
+IFC_1_NETWORK_AUTHENTICATION "$(IFC_IN_NETWORK_AUTHENTICATION_IFC_1)"
+GUI OPTIONAL AUTHENTICATOR IFC_IN_NETWORK_AUTHENTICATION_IFC_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO IFC_IN_ATTRIBUTE_READING_IFC_1 ALL
+IFC_1_ATTRIBUTE_READING "$(IFC_IN_ATTRIBUTE_READING_IFC_1)"
+IFC_1_DATASET "$(SourceDataset_IFC_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)Kamakura - with object for BUA.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+MAPPING_FILE_ID Kamakura<space>-<space>med<space>objekt<space>f<u00f6>r<space>BYA
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_IFC_1 IFC_1
+# -------------------------------------------------------------------------
+
+IFC_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME Kamakura - with object for BUA
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+IFC_1_DEF IfcSpace   GlobalId                     char(22)   Name                         string   Description                  string   ObjectType                   string   LongName                     string   CompositionType              enumeration   InteriorOrExteriorSpace      enumeration   ElevationWithFlooring        real   Axis                         geometry   Body                         geometry   Box                          geometry   FootPrint                    geometry
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD IFC_1   INPUT FEATURE_TYPE *    ROUTE IFC IFC_1::IfcSpace TO FME_GENERIC ::IfcSpace ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+IFC_1_MERGE_DEF IFC_1::IfcSpace EXACT IfcSpace
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "IfcSpace (IFC_1) Splitter"    INPUT FEATURE_TYPE IfcSpace    OUTPUT FEATURE_TYPE IfcSpace_IFC_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE IfcSpace_IFC_1    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LongName<closeparen>,Tester) = Area ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME SurfaceFootprintReplacer    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT FEATURE_TYPE __TO_TEST__         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)         @Geometry(FIND_SURFACE_FOOTPRINT,OVERHEAD         ,"0","0","1"         ,"0"         )
+FACTORY_DEF * TestFactory    FACTORY_NAME SurfaceFootprintReplacer_router    INPUT FEATURE_TYPE __TO_TEST__    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE SurfaceFootprintReplacer_<REJECTED>         @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE SurfaceFootprintReplacer_FOOTPRINT         @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME SurfaceFootprintReplacer_<Rejected> INPUT FEATURE_TYPE SurfaceFootprintReplacer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SurfaceFootprintReplacer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>if<space>features<space>are<space>rejected<comma><space>change<space>the<space>workspace<space>parameter<space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+INCLUDE [          if { ({Plane Area} == {Sloped Area}) } {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,SLOPED_AREAS,"@EvaluateExpression(FDIV,FLOAT,1<solidus>1000000,AreaCalculator)")};          } else {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,"@EvaluateExpression(FDIV,FLOAT,1<solidus>1000000,AreaCalculator)")};          }          ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME AreaCalculator    INPUT  FEATURE_TYPE SurfaceFootprintReplacer_FOOTPRINT         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE ___TOREJECTOR___         "_area" $(AreaCalculator_func)
+FACTORY_DEF * TestFactory    FACTORY_NAME AreaCalculator_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE AreaCalculator_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE AreaCalculator_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME AreaCalculator_<Rejected> INPUT FEATURE_TYPE AreaCalculator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AreaCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>if<space>features<space>are<space>rejected<comma><space>change<space>the<space>workspace<space>parameter<space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+Tcl2 proc AttributeRounder_round {places} {    set attrs [split {_area} { }];    foreach attr $attrs {       set attr [FME_DecodeText $attr];       set original [FME_GetAttribute $attr];       if {$original == {} || [FME_IsAttributeNull $attr]}       {          FME_LogMessage fme_warn 917357 {AttributeRounder} $attr;          continue;       };       set comment {"do not attempt rounding if not a number"};       if {[string is double $original] == 0} {continue};       if { [catch {                set multiplier [expr pow(10,$places)];                set result [expr "round($original * $multiplier) / $multiplier"];                set comment {"when rounding integers, chop trailing .0 from the value"};                if {$places == 0 || [string is wideinteger $original] == 1} {                   set result [regsub {[.]0*$} $result {}];                };             };] == 0 } {          FME_SetAttribute $attr $result;       } else {          FME_LogMessage fme_warn 917350 {AttributeRounder} $attr;       };   }; }
+FACTORY_DEF * TestFactory    FACTORY_NAME AttributeRounder    INPUT  FEATURE_TYPE AreaCalculator_OUTPUT    TEST "1" TYPE INT ENCODED    OUTPUT FAILED FEATURE_TYPE AttributeRounder_<REJECTED>       fme_rejection_code "INVALID_PARAMETER_DECIMAL_PLACES"    OUTPUT PASSED FEATURE_TYPE __toOutput__
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRounder_AttributeRounder    INPUT FEATURE_TYPE __toOutput__
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME AttributeRounder_<Rejected> INPUT FEATURE_TYPE AttributeRounder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AttributeRounder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>if<space>features<space>are<space>rejected<comma><space>change<space>the<space>workspace<space>parameter<space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
