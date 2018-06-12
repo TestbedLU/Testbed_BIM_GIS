@@ -22,6 +22,9 @@ A large house with many different uses.
 ## Calculation with object representing BUA
 
 ### Kamakura House
+Singel family home, produced by Martin Hooper at Sweco Position.
+
+<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/Kamakura%20House/kamakura1.PNG" width="414" height="336">
 
 ## License
 *BSD 3-Clause License*
