@@ -5,55 +5,55 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" "E:\Josefine\Testbed_BIM_GIS\Building area\Kamakura House\Kamakura - with object for BUA.fmw"
+#    C:\apps\FME_2017_112\fme.exe "E:\Josefine\Testbed_BIM_GIS\Building area\Kamakura House\Kamakura - with object for BUA.fmw"
 #          --SourceDataset_IFC "C:\Users\seuppp\Documents\Exjobb\EXJOBB\FME-skript\Husmodeller\IFC-filer från Martin\180301 - Kamakura House.ifc"
 #    
 #    
-#!   VIEW_POSITION="-4090.67 1934.39"
-#!   DESTINATION="NONE"
-#!   USE_MARKDOWN=""
-#!   TITLE="Kamakura - med objekt för BYA"
-#!   MARKDOWN_USAGE=""
-#!   FME_SERVER_SERVICES=""
-#!   SHOW_INFO_NODES="true"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   BEGIN_PYTHON=""
-#!   WORKSPACE_VERSION="1"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   HISTORY=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   SHOW_ANNOTATIONS="true"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   DESTINATION_ROUTING_FILE=""
-#!   IGNORE_READER_FAILURE="No"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   REDIRECT_TERMINATORS="NONE"
-#!   LOG_FILE=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   CATEGORY=""
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   HISTORY=""
+#!   DESCRIPTION=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   END_TCL=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.2 (20171115 - Build 17654 - WIN32)"
+#!   FME_BUILD_NUM="17654"
+#!   VIEW_POSITION="-4534.42 1978.14"
+#!   IGNORE_READER_FAILURE="No"
+#!   TITLE="Kamakura - med objekt för BYA"
+#!   SHOW_ANNOTATIONS="true"
+#!   ZOOM_SCALE="100"
+#!   FME_DOCUMENT_GUID="2c406963-e357-444e-9fd2-7f475728d870"
+#!   SOURCE_ROUTING_FILE=""
 #!   DOC_TOP_LEFT="-2540.65 636.509"
+#!   DESTINATION_ROUTING_FILE=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   SHOW_INFO_NODES="true"
+#!   FME_DOCUMENT_PRIORGUID="15fdda03-8401-4954-b0fe-269d0a7d2117,fdb72af9-a802-4ba1-9be2-2ba085873e04,87aa86ab-3d98-4c82-914e-dd5f558aa522,d1c8700a-ac1a-4b8a-8dd0-705eac81c8c5,7c8b2927-fadb-4645-9e5b-143dea439299"
+#!   FME_SERVER_SERVICES=""
+#!   SOURCE="NONE"
+#!   TERMINATE_REJECTED="YES"
+#!   PASSWORD=""
+#!   MARKDOWN_USAGE=""
+#!   USE_MARKDOWN=""
+#!   END_PYTHON=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   BEGIN_TCL=""
+#!   LOG_FILE=""
 #!   MARKDOWN_DESCRIPTION=""
 #!   MAX_LOG_FEATURES="200"
 #!   USAGE=""
-#!   FME_DOCUMENT_GUID="7c8b2927-fadb-4645-9e5b-143dea439299"
-#!   END_PYTHON=""
-#!   SOURCE_ROUTING_FILE=""
-#!   LAST_SAVE_DATE="2018-06-12T11:22:56"
-#!   DESCRIPTION=""
-#!   FME_DOCUMENT_PRIORGUID="15fdda03-8401-4954-b0fe-269d0a7d2117,fdb72af9-a802-4ba1-9be2-2ba085873e04,87aa86ab-3d98-4c82-914e-dd5f558aa522,d1c8700a-ac1a-4b8a-8dd0-705eac81c8c5"
-#!   FME_BUILD_NUM="17291"
-#!   ZOOM_SCALE="100"
-#!   END_TCL=""
-#!   TERMINATE_REJECTED="YES"
-#!   BEGIN_TCL=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   PASSWORD=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.1.1 (20170512 - Build 17291 - WIN64)"
-#!   SOURCE="NONE"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   DOC_EXTENTS="1433.39 509.131"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   DOC_EXTENTS="1987.39 509.131"
+#!   LAST_SAVE_DATE="2018-06-26T14:00:44"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   BEGIN_PYTHON=""
+#!   DESTINATION="NONE"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +69,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_keyword char(50) ifc_representation instance ifc_parent_id string ifc_context_type string ifc_type string ifc_context_dimension string multi_reader_type char(50) ifc_native_attribute_type string fme_secondary_axis number fme_geometry fme_char(50) ifc_object_placement instance fme_sweep_angle number ifc_unique_id string fme_basename char(50) ifc_entity_type string fme_type char(50) ifc_context_precision string ifc_attribute_type string ifc_decomposes instance ifc_material.layer{}.is_ventilated string fme_fill_color char(50) ifc_material.name string ifc_is_contained_in instance ifc_parent_unique_id string ifc_material.layer_set_name string ifc_is_decomposed_by{} instance fme_color char(50) ifc_representation_identifier string multi_reader_full_id int fme_rotation number ifc_representations{}.type string ifc_representations{}.identifier string multi_reader_id int fme_text_size number fme_primary_axis number fme_text_string char(50) ifc_id string fme_start_angle number ifc_contains{} instance ifc_material.material{}.name string ifc_material.layer{}.name string fme_dataset char(50) ifc_material.layer{}.thickness string ifc_instance_name instance fme_feature_type char(50)"
+#!   EXPOSABLE_ATTRS="ifc_context_dimension string fme_fill_color char(50) fme_secondary_axis number fme_text_size number fme_feature_type char(50) ifc_contains{} instance fme_rotation number fme_basename char(50) ifc_representations{}.type string fme_color char(50) multi_reader_id int fme_type char(50) ifc_native_attribute_type string ifc_representation_identifier string ifc_material.material{}.name string ifc_decomposes instance ifc_attribute_type string ifc_entity_type string ifc_material.layer_set_name string ifc_parent_id string ifc_representations{}.identifier string ifc_parent_unique_id string ifc_context_type string ifc_is_decomposed_by{} instance ifc_material.layer{}.name string fme_dataset char(50) ifc_object_placement instance ifc_id string ifc_material.name string fme_sweep_angle number ifc_material.layer{}.thickness string multi_reader_full_id int fme_text_string char(50) multi_reader_type char(50) ifc_representation instance ifc_type string ifc_material.layer{}.is_ventilated string fme_geometry fme_char(50) fme_start_angle number ifc_unique_id string fme_primary_axis number ifc_instance_name instance ifc_context_precision string ifc_is_contained_in instance multi_reader_keyword char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -78,20 +78,16 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE"
 #!   GENERATE_FME_BUILD_NUM="17725"
+#!   START_FEATURE=""
+#!   MAX_FEATURES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
 #!   FEATURE_TYPES=""
 #!   COORDSYS=""
-#!   MAX_FEATURES=""
-#!   START_FEATURE=""
-#!   MIN_FEATURES=""
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="ifc file"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the IFC file(s)"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
@@ -100,6 +96,10 @@
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_NAME"
 #!   VALUE="Object"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the IFC file(s)"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -474,13 +474,13 @@
 #!     <XFORM_ATTR ATTR_NAME="ifc_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
-#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;LongName&lt;closeparen&gt; = Area"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;LongName&lt;closeparen&gt; = Area"/>
+#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="4"
@@ -528,15 +528,15 @@
 #!     <XFORM_ATTR ATTR_NAME="ifc_parent_unique_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIGHT_X" PARM_VALUE="0"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SurfaceFootprintReplacer"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIGHT_Z" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="OFFSET_Z" PARM_VALUE="0"/>
 #!     <XFORM_PARM PARM_NAME="SHADOW_MODE" PARM_VALUE="Overhead Shadow"/>
+#!     <XFORM_PARM PARM_NAME="LIGHT_X" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OFFSET_Z" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SurfaceFootprintReplacer"/>
 #!     <XFORM_PARM PARM_NAME="LIGHT_Y" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="LIGHT_Z" PARM_VALUE="1"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="7"
@@ -586,11 +586,11 @@
 #!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AREA_ATTR" PARM_VALUE="_area"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="AREA_TYPE" PARM_VALUE="Plane Area"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AreaCalculator"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="AREA_ATTR" PARM_VALUE="_area"/>
 #!     <XFORM_PARM PARM_NAME="MULT" PARM_VALUE="1/1000000"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -641,12 +641,40 @@
 #!     <XFORM_ATTR ATTR_NAME="ifc_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="_area"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRounder"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PLACES" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="_area"/>
 #!     <XFORM_PARM PARM_NAME="ROUND_TYPE" PARM_VALUE="Nearest"/>
+#!     <XFORM_PARM PARM_NAME="PLACES" PARM_VALUE="1"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="11"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="-553.26 695.259"
+#!   BOUNDING_RECT="-553.26 695.259 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17654"
+#! >
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRounder_Output"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -687,6 +715,17 @@
 #!   IDENTIFIER="10"
 #!   SOURCE_NODE="7"
 #!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="12"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="11"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -860,6 +899,12 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME Kamakura - with object for BUA
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
+
+INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
+MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
+MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
+MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
+# -------------------------------------------------------------------------
 IFC_1_DEF IfcSpace   GlobalId                     char(22)   Name                         string   Description                  string   ObjectType                   string   LongName                     string   CompositionType              enumeration   InteriorOrExteriorSpace      enumeration   ElevationWithFlooring        real   Axis                         geometry   Body                         geometry   Box                          geometry   FootPrint                    geometry
 # -------------------------------------------------------------------------
 
@@ -878,7 +923,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME SurfaceFootprintReplacer    INPUT  FEAT
 FACTORY_DEF * TestFactory    FACTORY_NAME SurfaceFootprintReplacer_router    INPUT FEATURE_TYPE __TO_TEST__    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE SurfaceFootprintReplacer_<REJECTED>         @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE SurfaceFootprintReplacer_FOOTPRINT         @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SurfaceFootprintReplacer_<Rejected> INPUT FEATURE_TYPE SurfaceFootprintReplacer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SurfaceFootprintReplacer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>if<space>features<space>are<space>rejected<comma><space>change<space>the<space>workspace<space>parameter<space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME SurfaceFootprintReplacer_<Rejected> INPUT FEATURE_TYPE SurfaceFootprintReplacer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SurfaceFootprintReplacer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
 INCLUDE [          if { ({Plane Area} == {Sloped Area}) } {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,SLOPED_AREAS,"@EvaluateExpression(FDIV,FLOAT,1<solidus>1000000,AreaCalculator)")};          } else {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,"@EvaluateExpression(FDIV,FLOAT,1<solidus>1000000,AreaCalculator)")};          }          ]
@@ -886,15 +931,31 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AreaCalculator    INPUT  FEATURE_TYPE S
 FACTORY_DEF * TestFactory    FACTORY_NAME AreaCalculator_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE AreaCalculator_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE AreaCalculator_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME AreaCalculator_<Rejected> INPUT FEATURE_TYPE AreaCalculator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AreaCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>if<space>features<space>are<space>rejected<comma><space>change<space>the<space>workspace<space>parameter<space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME AreaCalculator_<Rejected> INPUT FEATURE_TYPE AreaCalculator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AreaCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
 Tcl2 proc AttributeRounder_round {places} {    set attrs [split {_area} { }];    foreach attr $attrs {       set attr [FME_DecodeText $attr];       set original [FME_GetAttribute $attr];       if {$original == {} || [FME_IsAttributeNull $attr]}       {          FME_LogMessage fme_warn 917357 {AttributeRounder} $attr;          continue;       };       set comment {"do not attempt rounding if not a number"};       if {[string is double $original] == 0} {continue};       if { [catch {                set multiplier [expr pow(10,$places)];                set result [expr "round($original * $multiplier) / $multiplier"];                set comment {"when rounding integers, chop trailing .0 from the value"};                if {$places == 0 || [string is wideinteger $original] == 1} {                   set result [regsub {[.]0*$} $result {}];                };             };] == 0 } {          FME_SetAttribute $attr $result;       } else {          FME_LogMessage fme_warn 917350 {AttributeRounder} $attr;       };   }; }
 FACTORY_DEF * TestFactory    FACTORY_NAME AttributeRounder    INPUT  FEATURE_TYPE AreaCalculator_OUTPUT    TEST "1" TYPE INT ENCODED    OUTPUT FAILED FEATURE_TYPE AttributeRounder_<REJECTED>       fme_rejection_code "INVALID_PARAMETER_DECIMAL_PLACES"    OUTPUT PASSED FEATURE_TYPE __toOutput__
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRounder_AttributeRounder    INPUT FEATURE_TYPE __toOutput__
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRounder_AttributeRounder    INPUT FEATURE_TYPE __toOutput__    OUTPUT FEATURE_TYPE AttributeRounder_OUTPUT         @Tcl2("AttributeRounder_round 1")
 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME AttributeRounder_<Rejected> INPUT FEATURE_TYPE AttributeRounder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AttributeRounder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>if<space>features<space>are<space>rejected<comma><space>change<space>the<space>workspace<space>parameter<space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME AttributeRounder_<Rejected> INPUT FEATURE_TYPE AttributeRounder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AttributeRounder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+FACTORY_DEF * InspectorFactory    FACTORY_NAME AttributeRounder_Output_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeRounder_OUTPUT    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX AttributeRounder_Output    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+
+FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeRounder_Output_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA GlobalId,varchar<openparen>255<closeparen>,Name,varchar<openparen>255<closeparen>,Description,varchar<openparen>255<closeparen>,ObjectType,varchar<openparen>255<closeparen>,LongName,varchar<openparen>255<closeparen>,CompositionType,varchar<openparen>255<closeparen>,InteriorOrExteriorSpace,varchar<openparen>255<closeparen>,ElevationWithFlooring,varchar<openparen>255<closeparen>,Axis,varchar<openparen>255<closeparen>,Body,varchar<openparen>255<closeparen>,Box,varchar<openparen>255<closeparen>,FootPrint,varchar<openparen>255<closeparen>,ifc_unique_id,varchar<openparen>255<closeparen>,ifc_parent_unique_id,varchar<openparen>255<closeparen>,ifc_parent_id,varchar<openparen>255<closeparen>,_area,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
@@ -902,3 +963,7 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
+FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
