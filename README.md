@@ -1,11 +1,21 @@
 # Testbed_BIM_GIS
-*Description of testbed*
+This testbed conatains FME scripts/custom transformers. For each script/custom transformer there is a document "Description and usage" that describes the script (in English).
 
-* Building area
+Annotations in the scripts are either in Swedish or English.
+
+Content:  
+* IfcToMesh
+* Building footprint area
+ - Hjaltevadshus
+ - Multihuset
+ - House 45
+ - KTHDemohouse
+ - Kamakura House
 * Building height
-* Conversion IFC to SGP 3.0 (LoD1)
-* Conversion IFC to SGP 3.0 (LoD2)
-* Conversion IFC to SGP 3.0 (LoD3)
+* Detailed development plan reader
+* Conversion IFC to SGP 3.0 - Writer
+* Conversion IFC to SGP 3.0 - Geometry
+
 
 ## Built with
 [FME](https://www.safe.com/) - Safe Software

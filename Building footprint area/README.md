@@ -15,19 +15,20 @@ Workspace *Multihuset - without object for BUA.fmw* uses __FootprintAreaCalculat
 ### Hjaltevadhus
 Two models of singel family homes, Spira 168 and Spira 175, produced by house manufacturers [Hjältevadshus](https://hjaltevadshus.se/hus/).
 
-__Spira 168__
+<pre><b>Spira 168                  Spira 175</b></pre>
 
-<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/Hjaltevadshus/Pictures%20-%20house%20models/Hjaltevad168front.PNG" width="203" height="126">
-
-__Spira 175__
-
-<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/Hjaltevadshus/Pictures%20-%20house%20models/Hjaltevad175front.PNG" width="209" height="128">
+<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/Hjaltevadshus/Pictures%20-%20house%20models/Hjaltevad168front.PNG" width="203" height="126"> <img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/Hjaltevadshus/Pictures%20-%20house%20models/Hjaltevad175front.PNG" width="209" height="128">
 
 
 ### Multihuset
 A large house with many different uses.
 
 <img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/Multihuset/Pictures%20-%20house%20models/multihus3.PNG" width="205" height="118">
+
+### House45
+House model specially produced by Martin Hooper at Sweco Positon for calculation of building height.
+
+<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20area/House45/House45.PNG" width="189" height="104">
 
 ## Calculation with object representing BUA
 
