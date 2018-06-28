@@ -6,11 +6,11 @@ Annotations in the scripts are either in Swedish or English.
 Content:  
 * IfcToMesh
 * Building footprint area
- - Hjaltevadshus
- - Multihuset
- - House 45
- - KTHDemohouse
- - Kamakura House
+  - Hjaltevadshus
+  - Multihuset
+  - House 45
+  - KTHDemohouse
+  - Kamakura House
 * Building height
 * Detailed development plan reader
 * Conversion IFC to SGP 3.0 - Writer
