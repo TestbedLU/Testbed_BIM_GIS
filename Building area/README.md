@@ -1,5 +1,5 @@
 # Calculation of building area/footprint area for IFC-models
-Two custom transformers is created
+Two custom transformers are created
 
 - __FootprintAreaCalculator.fmx__
 - __FootprintAreaCalculator_IfcSpace.fmx__
@@ -13,7 +13,7 @@ Workspace *Multihuset - without object for BUA.fmw* uses __FootprintAreaCalculat
 
 ## Calculation without object representing BUA (Building area)
 ### Hjaltevadhus
-2 models of singel family homes, Spira 168 and Spira 175, produced by house manufacturers Hjältevadshus.
+Two models of singel family homes, Spira 168 and Spira 175, produced by house manufacturers [Hjältevadshus](https://hjaltevadshus.se/hus/).
 
 __Spira 168__
 
