@@ -1,10 +1,10 @@
-# Calculation of building area/footprint area for IFC-models
-Two custom transformers are created
+# Calculation of building footprint area for IFC-models
+Custom transformers:
 
 - __FootprintAreaCalculator.fmx__
 - __FootprintAreaCalculator_IfcSpace.fmx__
 
-__FootprintAreaCalculator.fmx__ is used in workspace *Hjaltevadshus Spira 168 - without object for BUA.fmw* and *Hjaltevadshus Spira 175 - without object for BUA.fmw*.
+__FootprintAreaCalculator.fmx__ is used in workspace *Hjaltevadshus Spira 168 - without object for BUA.fmw*, *Hjaltevadshus Spira 175 - without object for BUA.fmw*, *House45* and *KTHDemohouse*.
 
 __FootprintAreaCalculator_IfcSpace.fmx__ is used in workspace *Kamakura - with object for BUA.fmw*.
 
