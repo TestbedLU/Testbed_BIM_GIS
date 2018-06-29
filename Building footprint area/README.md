@@ -12,6 +12,17 @@ Workspace *Multihuset - without object for BUA.fmw* uses __FootprintAreaCalculat
 
 
 ## Calculation without object representing BUA (Building area)
+
+### House45
+House model specially produced by Martin Hooper at Sweco Positon for calculation of building height.
+
+<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20footprint%20area/House%2045/House45.PNG" width="189" height="104">
+
+### KTHDemohouse
+Building model produced at KTH (Kungliga Tekniska Högskolan) division of project communication.
+
+<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20footprint%20area/KTHDemohouse/KTHfront.PNG" width="204" height="129">
+
 ### Hjaltevadhus
 Two models of singel family homes, Spira 168 and Spira 175, produced by house manufacturers [Hjältevadshus](https://hjaltevadshus.se/hus/).
 
@@ -25,10 +36,6 @@ A large house with many different uses.
 
 <img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20footprint%20area/Multihuset/Pictures%20-%20house%20models/multihus3.PNG" width="205" height="118">
 
-### House45
-House model specially produced by Martin Hooper at Sweco Positon for calculation of building height.
-
-<img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20footprint%20area/House%2045/House45.PNG" width="189" height="104">
 
 ## Calculation with object representing BUA
 
