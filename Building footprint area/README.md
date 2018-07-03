@@ -54,4 +54,4 @@ See the [LICENSE.md](https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/LI
 
 ## Links
 
-*Master Thesis*
+[Master Thesis - Automation of building permit applications](http://lup.lub.lu.se/student-papers/record/8954066)

@@ -40,7 +40,7 @@ Source: Höganäs municipality, Urban planning office.
 
 ## Links
 
-*Master Thesis*
+[Master Thesis - Automation of building permit applications](http://lup.lub.lu.se/student-papers/record/8954066)
 
 *Article*
 
