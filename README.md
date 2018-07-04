@@ -31,9 +31,13 @@ __KTHDemohouse__
 
 Source: KTH, division of project communication.
 
-__Höganäs detaljplan__
+__Höganäs detaljplan - ArildCentral__
 
 Source: Höganäs municipality, Urban planning office.
+
+__Digital Elevation Model__
+
+Source: Artificially created DEM
 
 ## Built with
 [FME](https://www.safe.com/) - Safe Software

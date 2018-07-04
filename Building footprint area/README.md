@@ -44,6 +44,10 @@ Singel family home, produced by Martin Hooper at Sweco Position.
 
 <img src="https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/Building%20footprint%20area/Kamakura%20House/kamakura1.PNG" width="207" height="168">
 
+## Links
+
+[Master Thesis - Automation of building permit applications](http://lup.lub.lu.se/student-papers/record/8954066)
+
 ## License
 *BSD 3-Clause License*
 
@@ -51,7 +55,3 @@ Singel family home, produced by Martin Hooper at Sweco Position.
 *All rights reserved.*
 
 See the [LICENSE.md](https://github.com/TestbedLU/Testbed_BIM_GIS/blob/master/LICENSE) file for details.
-
-## Links
-
-[Master Thesis - Automation of building permit applications](http://lup.lub.lu.se/student-papers/record/8954066)
