@@ -11,9 +11,10 @@ __Content__:
     - Kamakura House
 3.  Building height
 4.  Detailed development plan reader
-5.  Conversion IFC to SGP 3.0 - Writer
-6.  Conversion IFC to SGP 3.0 - Geometry
-7.  Combined script (1,2,3,4,5,6)
+5.  Conversion IFC to SGP 3.0 - Geometry and Writer
+    - LOD1
+    - LOD2
+7.  Combined script (2,3,4,5)
 
 ## Data
 Some scipts are published without input data due to restrictive license rules.
