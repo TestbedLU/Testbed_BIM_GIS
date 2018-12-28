@@ -45,9 +45,9 @@ Source: Artificially created DEM
 
 ## Links
 
-[Master Thesis - Automation of building permit applications](http://lup.lub.lu.se/student-papers/record/8954066)
+[Article - Automation of Building Permission by Integration of BIM and Geospatial Data] (https://www.mdpi.com/2220-9964/7/8/307)
 
-*Article*
+[Master Thesis - Automation of building permit applications](http://lup.lub.lu.se/student-papers/record/8954066)
 
 ## License
 
