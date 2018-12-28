@@ -1,5 +1,5 @@
 # Testbed_BIM_GIS
-This testbed conatains FME scripts/custom transformers which handles conversion IFC to mesh, conversion between IFC and SGP (Swedish geoprocess) and calculations of building footprint area and height of a building model (IFC). For each script/custom transformer there is a document "Description and usage" that describes the script (in English). Annotations in the scripts are either in Swedish or English.
+This testbed contains FME scripts/custom transformers which handles conversion of IFC files to mesh, conversion between IFC and SGP (Swedish geoprocess) and calculations of building footprint area and height of a building model (IFC). For each script/custom transformer there is a document "Description and usage" that describes the script (in English). Annotations in the scripts are either in Swedish or English.
 
 __Content__:
 1.  IfcToMesh
