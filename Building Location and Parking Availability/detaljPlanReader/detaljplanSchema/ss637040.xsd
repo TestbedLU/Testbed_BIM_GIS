@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:dp="http://www.sis.se/ss637040" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.sis.se/ss637040" elementFormDefault="qualified">
+	<xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19136_Schemas/gml.xsd"/>
+	<!--
+Rotelement
+-->
+	<xs:element name="DP_Data" type="dp:DP_DataType" substitutionGroup="gml:AbstractFeature"/>
+	<xs:complexType name="DP_DataType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="tillampning" type="dp:DP_TillampningType"/>
+					<xs:element name="beskrivning" type="xs:string" minOccurs="0"/>
+					<xs:element name="grans" type="dp:DP_GransPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="omrade" type="dp:DP_OmradePropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="plan" type="dp:DP_PlanPropertyType" minOccurs="1" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DP_DataPropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="dp:DP_Data"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<!--____________________________________________________________________________________________________________
+		DP_Plan
+    ______________________________________________________________________________________________________________-->
+	<xs:element name="DP_Plan" type="dp:DP_PlanType" substitutionGroup="gml:AbstractFeature"/>
+	<xs:complexType name="DP_PlanType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="uuid" type="dp:UUIDType"/>
+					<xs:element name="planid" type="xs:string"/>
+					<xs:element name="akt" type="xs:string" minOccurs="0"/>
+					<xs:element name="internAkt" type="xs:string" minOccurs="0"/>
+					<xs:element name="diarienummer" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="ursprungsakt" type="xs:string" minOccurs="0"/>
+					<xs:element name="tillkomst" type="xs:string" minOccurs="0"/>
+					<xs:element name="ursprung" type="dp:DP_UrsprungType" minOccurs="0"/>
+					<xs:element name="ursprungligPlantyp" type="dp:DP_RegisterplantypType" minOccurs="0"/>
+					<xs:element name="konvertering" type="dp:DP_KonverteringType" minOccurs="0"/>
+					<xs:element name="plantyp" type="dp:DP_PlantypType" default="DP"/>
+					<xs:element name="forslag" type="xs:boolean" minOccurs="0"/>
+					<xs:element name="plannamn" type="xs:string"/>
+					<xs:element name="berordPlan" type="dp:UUIDType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="berordBestammelse" type="dp:UUIDType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="syfte" type="xs:string" minOccurs="0"/>
+					<xs:element name="syftedokumentation" type="xs:string" minOccurs="0"/>
+					<xs:element name="kommun" type="xs:string"/>
+					<xs:element name="loggning" type="dp:DP_LoggPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="utgava" type="xs:string" minOccurs="0"/>
+					<xs:element name="fysisktArkiv" type="xs:string" minOccurs="0"/>
+					<xs:element name="digitaltArkiv" type="xs:string" minOccurs="0"/>
+					<xs:element name="registreringsdatum" type="xs:date" minOccurs="0"/>
+					<xs:element name="registerstatus" type="dp:DP_RegisterstatusType" minOccurs="0"/>
+					<xs:element name="plananmarkning" type="xs:string" minOccurs="0"/>
+					<xs:element name="hojdsystem" type="xs:string"/>
+					<xs:element name="koordinatsystem" type="xs:string"/>
+					<xs:element name="katalog" type="xs:string"/>
+					<xs:element name="katalogversion" type="xs:string"/>
+					<xs:element name="planomrade" type="gml:SurfacePropertyType" minOccurs="1" maxOccurs="unbounded"/>
+					<xs:element name="anvandningsbestammelse" type="dp:DP_AnvandningsbestammelsePropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="generellPlanbestammelse" type="dp:DP_AdministrativBestammelsePropertyType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DP_PlanPropertyType">
+		<xs:sequence minOccurs="1">
+			<xs:element ref="dp:DP_Plan"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+		<!--		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+-->
+	</xs:complexType>
+	<!--____________________________________________________________________________________________________________
+		DP_Planbestämmelse
+    ______________________________________________________________________________________________________________-->
+	<xs:element name="DP_Planbestammelse" type="dp:DP_PlanbestammelseType" substitutionGroup="gml:AbstractFeature"/>
+	<xs:complexType name="DP_PlanbestammelseType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="uuid" type="dp:UUIDType"/>
+					<xs:element name="bestammelseid" type="xs:string"/>
+					<xs:element name="ursprunglig" type="xs:string" minOccurs="0"/>
+					<xs:element name="giltighet" type="xs:string" minOccurs="0"/>
+					<xs:element name="anmarkning" type="xs:string" minOccurs="0"/>
+					<xs:element name="beteckning" type="xs:string" minOccurs="0"/>
+					<xs:element name="index" type="xs:string" minOccurs="0"/>
+					<xs:element name="insattning" type="gml:PointPropertyType" minOccurs="0"/>
+					<xs:element name="rotation" type="xs:string" minOccurs="0"/>
+					<xs:element name="omrade" type="dp:DP_OmradePropertyType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DP_PlanbestammelsePropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="dp:DP_Planbestammelse"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<!--____________________________________________________________________________________________________________
+		DP_Användningsbestämmelse >> DP_Planbestämmelse
+    ______________________________________________________________________________________________________________-->
+	<xs:element name="DP_Anvandningsbestammelse" type="dp:DP_AnvandningsbestammelseType" substitutionGroup="dp:DP_Planbestammelse"/>
+	<xs:complexType name="DP_AnvandningsbestammelseType">
+		<xs:complexContent>
+			<xs:extension base="dp:DP_PlanbestammelseType">
+				<xs:sequence>
+					<xs:element name="anvandningsslag" type="xs:string"/>
+					<xs:element name="precisering" type="xs:string" minOccurs="0"/>
+					<xs:element name="huvudsaklig" type="xs:boolean" minOccurs="0"/>
+					<xs:element name="egenskapsbestammelse" type="dp:DP_EgenskapsbestammelsePropertyType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="administrativBestammelse" type="dp:DP_AdministrativBestammelsePropertyType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DP_AnvandningsbestammelsePropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="dp:DP_Anvandningsbestammelse"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<!--  -->
+	<!--____________________________________________________________________________________________________________
+		DP_Egenskapsbestämmelse >> DP_Planbestämmelse
+    ______________________________________________________________________________________________________________-->
+	<xs:element name="DP_Egenskapsbestammelse" type="dp:DP_EgenskapsbestammelseType" substitutionGroup="dp:DP_Planbestammelse"/>
+	<xs:complexType name="DP_EgenskapsbestammelseType">
+		<xs:complexContent>
+			<xs:extension base="dp:DP_PlanbestammelseType">
+				<xs:sequence>
+					<xs:element name="bestammelsetyp" type="xs:string"/>
+					<xs:element name="syfte" type="xs:string" minOccurs="0"/>
+					<xs:element name="variabel" type="dp:DP_VariabelPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DP_EgenskapsbestammelsePropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="dp:DP_Egenskapsbestammelse"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<!--____________________________________________________________________________________________________________
+		DP_AdministrativBestämmelse >> DP_Planbestämmelse
+    ______________________________________________________________________________________________________________-->
+	<xs:element name="DP_AdministrativBestammelse" type="dp:DP_AdministrativBestammelseType" substitutionGroup="dp:DP_Planbestammelse"/>
+	<xs:complexType name="DP_AdministrativBestammelseType">
+		<xs:complexContent>
+			<xs:extension base="dp:DP_PlanbestammelseType">
+				<xs:sequence>
+					<xs:element name="bestammelsetyp" type="xs:string"/>
+					<xs:element name="syfte" type="xs:string" minOccurs="0"/>
+					<xs:element name="variabel" type="dp:DP_VariabelPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DP_AdministrativBestammelsePropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="dp:DP_AdministrativBestammelse"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<!--____________________________________________________________________________________________________________
+		Variabel
+    ______________________________________________________________________________________________________________-->
+	<xs:complexType name="DP_VariabelType" abstract="true">
+		<xs:sequence>
+			<xs:element name="namn" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="DP_Variabel" type="dp:DP_VariabelType" substitutionGroup="gml:AbstractObject"/>
+	<xs:complexType name="DP_VariabelPropertyType">
+		<xs:sequence>
+			<xs:element ref="dp:DP_Variabel"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="DP_VarDecimaltal" substitutionGroup="dp:DP_Variabel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="dp:DP_VariabelType">
+					<xs:sequence>
+						<xs:element name="varde" type="xs:decimal"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DP_VarHeltal" substitutionGroup="dp:DP_Variabel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="dp:DP_VariabelType">
+					<xs:sequence>
+						<xs:element name="varde" type="xs:integer"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DP_VarKod" substitutionGroup="dp:DP_Variabel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="dp:DP_VariabelType">
+					<xs:sequence>
+						<xs:element name="varde" type="xs:string"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DP_VarText" substitutionGroup="dp:DP_Variabel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="dp:DP_VariabelType">
+					<xs:sequence>
+						<xs:element name="varde" type="xs:string"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DP_VarArtal" substitutionGroup="dp:DP_Variabel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="dp:DP_VariabelType">
+					<xs:sequence>
+						<xs:element name="varde" type="xs:gYear"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DP_VarDatum" substitutionGroup="dp:DP_Variabel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="dp:DP_VariabelType">
+					<xs:sequence>
+						<xs:element name="varde" type="xs:date"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DP_VarPunkt" substitutionGroup="dp:DP_Variabel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="dp:DP_VariabelType">
+					<xs:sequence>
+						<xs:element name="varde" type="gml:PointPropertyType"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="DP_VarLinje" substitutionGroup="dp:DP_Variabel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="dp:DP_VariabelType">
+					<xs:sequence>
+						<xs:element name="varde" type="gml:CurvePropertyType"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<!--____________________________________________________________________________________________________________
+		DP_Logg
+    ______________________________________________________________________________________________________________-->
+	<xs:complexType name="DP_LoggType">
+		<xs:sequence>
+			<xs:element name="datum" type="xs:date"/>
+			<xs:element name="handelse" type="xs:string"/>
+			<xs:element name="notering" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="DP_Logg" type="dp:DP_LoggType" substitutionGroup="gml:AbstractObject"/>
+	<xs:complexType name="DP_LoggPropertyType">
+		<xs:sequence>
+			<xs:element ref="dp:DP_Logg"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<!--____________________________________________________________________________________________________________
+		DP_Område
+    ______________________________________________________________________________________________________________-->
+	<xs:element name="DP_Omrade" type="dp:DP_OmradeType" substitutionGroup="gml:AbstractFeature"/>
+	<xs:complexType name="DP_OmradeType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:choice maxOccurs="unbounded">
+						<xs:element name="plus" type="dp:DP_GransPropertyType"/>
+						<xs:element name="minus" type="dp:DP_GransPropertyType"/>
+					</xs:choice>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DP_OmradePropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="dp:DP_Omrade"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<!--____________________________________________________________________________________________________________
+		DP_Gräns
+    ______________________________________________________________________________________________________________-->
+	<xs:element name="DP_Grans" type="dp:DP_GransType" substitutionGroup="gml:AbstractFeature"/>
+	<xs:complexType name="DP_GransType">
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="typ" type="dp:DP_GranstypType" maxOccurs="unbounded"/>
+					<xs:element name="linje" type="gml:CurvePropertyType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DP_GransPropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="dp:DP_Grans"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<xs:attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</xs:complexType>
+	<!--	____________________________________________________________________________________________________________
+		Värdeförråd
+    ______________________________________________________________________________________________________________-->
+	<xs:simpleType name="DP_GranstypType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="plan"/>
+			<xs:enumeration value="anv"/>
+			<xs:enumeration value="eg"/>
+			<xs:enumeration value="ad"/>
+			<xs:enumeration value="eg_ad"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DP_PlantypType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="DP"/>
+			<xs:enumeration value="ADP"/>
+			<xs:enumeration value="OB"/>
+			<xs:enumeration value="AOB"/>
+			<xs:enumeration value="UP"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DP_KonverteringType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="tolkad"/>
+			<xs:enumeration value="exporterad"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DP_UrsprungType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="digital"/>
+			<xs:enumeration value="analog"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DP_RegisterstatusType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="f"/>
+			<xs:enumeration value="g"/>
+			<xs:enumeration value="a"/>
+			<xs:enumeration value="p"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DP_RegisterplantypType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="APL"/>
+			<xs:enumeration value="BPL"/>
+			<xs:enumeration value="DP"/>
+			<xs:enumeration value="FP"/>
+			<xs:enumeration value="OB"/>
+			<xs:enumeration value="SPL"/>
+			<xs:enumeration value="TI"/>
+			<xs:enumeration value="ADP"/>
+			<xs:enumeration value="AOB"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DP_TillampningType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="plan"/>
+			<xs:enumeration value="best"/>
+			<xs:enumeration value="upph"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="UUIDType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+</xs:schema>
